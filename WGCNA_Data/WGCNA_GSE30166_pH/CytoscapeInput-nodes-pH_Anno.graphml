@@ -1,0 +1,3756 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d16" for="edge" attr.name="weight" attr.type="float"/>
+<key id="d15" for="edge" attr.name="importance" attr.type="double"/>
+<key id="d14" for="node" attr.name="CC_Top" attr.type="double"/>
+<key id="d13" for="node" attr.name="Betweennes_bottleneck" attr.type="double"/>
+<key id="d12" for="node" attr.name="Degree_Hub" attr.type="double"/>
+<key id="d11" for="node" attr.name="Clustering_coefficient_nx" attr.type="long"/>
+<key id="d10" for="node" attr.name="size" attr.type="long"/>
+<key id="d9" for="node" attr.name="WGCNA_Module" attr.type="string"/>
+<key id="d8" for="node" attr.name="TF" attr.type="string"/>
+<key id="d7" for="node" attr.name="color" attr.type="string"/>
+<key id="d6" for="node" attr.name="CC_Top" attr.type="string"/>
+<key id="d5" for="node" attr.name="Betweennes_bottleneck" attr.type="string"/>
+<key id="d4" for="node" attr.name="Degree_Hub" attr.type="string"/>
+<key id="d3" for="node" attr.name="Clustering_coefficient_nx" attr.type="double"/>
+<key id="d2" for="node" attr.name="Degree_Centrality_nx" attr.type="double"/>
+<key id="d1" for="node" attr.name="Betweenness_nx" attr.type="double"/>
+<key id="d0" for="node" attr.name="Degree_nx" attr.type="long"/>
+<graph edgedefault="directed"><node id="AT3G15500">
+  <data key="d0">50</data>
+  <data key="d1">0.003555276381909548</data>
+  <data key="d2">0.25</data>
+  <data key="d3">0.01184640522875817</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT2G26400">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G22540">
+  <data key="d0">6</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.03</data>
+  <data key="d11">0</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#40E0D0</data>
+  <data key="d8">TF</data>
+  <data key="d9">turquoise</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G02790">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#40E0D0</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">turquoise</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G43000">
+  <data key="d0">48</data>
+  <data key="d1">0.001850921273031826</data>
+  <data key="d2">0.24</data>
+  <data key="d3">0.011535048802129548</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT4G26120">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT1G74840">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#FF00FF</data>
+  <data key="d8">TF</data>
+  <data key="d9">magenta</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT2G15890">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#FF00FF</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">magenta</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G28010">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G21900">
+  <data key="d0">18</data>
+  <data key="d1">0.0007579564489112229</data>
+  <data key="d2">0.09</data>
+  <data key="d3">0.013071895424836602</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G38900">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G18570">
+  <data key="d0">15</data>
+  <data key="d1">0.0021147403685092127</data>
+  <data key="d2">0.075</data>
+  <data key="d3">0.047619047619047616</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT3G59080">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">0.5</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G29250">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G11170">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G63750">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G23250">
+  <data key="d0">22</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.11</data>
+  <data key="d11">0</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G48400">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G33480">
+  <data key="d0">6</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.03</data>
+  <data key="d11">0</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT4G15630">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G07000">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G66090">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G02520">
+  <data key="d0">6</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.03</data>
+  <data key="d3">0.03333333333333333</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G01970">
+  <data key="d0">10</data>
+  <data key="d1">0.0006155778894472362</data>
+  <data key="d2">0.05</data>
+  <data key="d3">0.03333333333333333</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT1G72900">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G11210">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G32940">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G04890">
+  <data key="d0">6</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.03</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G22500">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G24430">
+  <data key="d0">16</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.08</data>
+  <data key="d3">0.008333333333333333</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT4G14060">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G30250">
+  <data key="d0">14</data>
+  <data key="d1">0.001457286432160804</data>
+  <data key="d2">0.07</data>
+  <data key="d3">0.02197802197802198</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT3G12820">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#000000</data>
+  <data key="d8">TF</data>
+  <data key="d9">black</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G02780">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#000000</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">black</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G39110">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G46400">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT1G32960">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G50260">
+  <data key="d0">12</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.06</data>
+  <data key="d3">0.007575757575757576</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT1G23710">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G34180">
+  <data key="d0">7</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.035</data>
+  <data key="d11">0</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT1G26410">
+  <data key="d0">5</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.025</data>
+  <data key="d3">0.15</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G57220">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G03670">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G19580">
+  <data key="d0">5</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.025</data>
+  <data key="d3">0.05</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G67340">
+  <data key="d0">4</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.02</data>
+  <data key="d3">0.08333333333333333</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G68450">
+  <data key="d0">4</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.02</data>
+  <data key="d3">0.16666666666666666</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G27420">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G57990">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G06730">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G64000">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G57650">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">0.5</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G08050">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G18880">
+  <data key="d0">4</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.02</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT1G29670">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G48020">
+  <data key="d0">4</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.02</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G38340">
+  <data key="d0">11</data>
+  <data key="d1">0.00023869346733668343</data>
+  <data key="d2">0.055</data>
+  <data key="d3">0.07272727272727272</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G05190">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G74360">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">0.5</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G63560">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G07390">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G28470">
+  <data key="d0">21</data>
+  <data key="d1">0.0004522613065326633</data>
+  <data key="d2">0.105</data>
+  <data key="d3">0.004761904761904762</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT3G48850">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G38470">
+  <data key="d0">5</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.025</data>
+  <data key="d3">0.15</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT2G02000">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G42380">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">0.5</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G12280">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G02530">
+  <data key="d0">7</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.035</data>
+  <data key="d3">0.07142857142857142</data>
+  <data key="d4">Hub</data>
+  <data key="d5">Bottleneck</data>
+  <data key="d6">Top_7.5</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G55020">
+  <data key="d0">4</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.02</data>
+  <data key="d3">0.25</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G39580">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G47260">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#40E0D0</data>
+  <data key="d8">TF</data>
+  <data key="d9">turquoise</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G59530">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G28190">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G26380">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d3">0.5</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G47000">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G26580">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#40E0D0</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">turquoise</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G37900">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G01060">
+  <data key="d0">3</data>
+  <data key="d1">5.0251256281407036e-05</data>
+  <data key="d2">0.015</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#000000</data>
+  <data key="d8">TF</data>
+  <data key="d9">black</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT3G24170">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#000000</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">black</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G21620">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G32230">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G28510">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G29020">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G03660">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G42840">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G14770">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">1.0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G28380">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G26560">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G25960">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d3">0.16666666666666666</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G62150">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d3">0.3333333333333333</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G04990">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G35210">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G18990">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">0.5</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G24490">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#FF00FF</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">magenta</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G57510">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">0.5</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G24510">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G05340">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G28460">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G18250">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G47730">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G12330">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G13080">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT2G35730">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G76700">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G33030">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G19020">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G03870">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G22270">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G13340">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G69790">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d3">0.6666666666666666</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G76070">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G42830">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G25930">
+  <data key="d0">5</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.025</data>
+  <data key="d3">0.05</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G46180">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G19980">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G21380">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">1.0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G06160">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#FF00FF</data>
+  <data key="d8">TF</data>
+  <data key="d9">magenta</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G06570">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#00FF00</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">green</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G29350">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G55270">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G05060">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">1.0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G18270">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT5G54730">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G18250">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G26200">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">0.5</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G05880">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G01650">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G10510">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT3G08760">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G42990">
+  <data key="d0">4</data>
+  <data key="d1">8.793969849246232e-05</data>
+  <data key="d2">0.02</data>
+  <data key="d3">0.08333333333333333</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT1G70810">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G30770">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G30750">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G57880">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G55260">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G33420">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT1G27950">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G66700">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G38860">
+  <data key="d0">3</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.015</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G09100">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G76600">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G08240">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G25610">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G16370">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G48260">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G23180">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G09600">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#000000</data>
+  <data key="d8">TF</data>
+  <data key="d9">black</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT4G37390">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G06360">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G60710">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G29220">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G43510">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G18690">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G61560">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G41750">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G35735">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G26920">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G33050">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d3">0.5</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G32870">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT2G36790">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G25250">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G44720">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G32210">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G10930">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G38580">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#40E0D0</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">turquoise</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G36800">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G01010">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G13380">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G28350">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G20230">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#40E0D0</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">turquoise</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G74590">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G25610">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G39400">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G27730">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT1G25400">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G59500">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G08770">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G28770">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#FF00FF</data>
+  <data key="d8">TF</data>
+  <data key="d9">magenta</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT1G28330">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#FF00FF</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">magenta</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G80920">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#FF00FF</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">magenta</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G48410">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G04630">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G01190">
+  <data key="d0">2</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.01</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G06740">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G38910">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G28570">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G17050">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G44130">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G61820">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G67800">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G37370">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G51500">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G63380">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G30790">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G01300">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT1G02310">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT2G46830">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#000000</data>
+  <data key="d8">TF</data>
+  <data key="d9">black</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT2G45550">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT5G25260">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#A52A2A</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">brown</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT4G23700">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#40E0D0</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">turquoise</data>
+  <data key="d10">10</data>
+</node>
+<node id="AT3G12720">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#40E0D0</data>
+  <data key="d8">TF</data>
+  <data key="d9">turquoise</data>
+  <data key="d10">20</data>
+</node>
+<node id="AT2G28660">
+  <data key="d0">1</data>
+  <data key="d1">0.0</data>
+  <data key="d2">0.005</data>
+  <data key="d11">0</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d7">#40E0D0</data>
+  <data key="d8">Non_TF</data>
+  <data key="d9">turquoise</data>
+  <data key="d10">10</data>
+</node>
+<edge source="AT3G15500" target="AT2G26400">
+  <data key="d15">0.009464070696234334</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G28010">
+  <data key="d15">0.0034061934393356808</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT2G29250">
+  <data key="d15">0.005711672291147476</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G18570">
+  <data key="d15">0.0244932497456444</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT5G11210">
+  <data key="d15">0.028822100251375823</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G32940">
+  <data key="d15">0.016892674994614373</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT5G39110">
+  <data key="d15">0.004471444677616908</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G57990">
+  <data key="d15">0.0281557856026188</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT5G06730">
+  <data key="d15">0.001794771473127406</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G57650">
+  <data key="d15">0.006586653020088544</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT4G12280">
+  <data key="d15">0.014878590994653764</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G55020">
+  <data key="d15">0.0732040945992513</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G68450">
+  <data key="d15">0.05775726948136353</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT4G21620">
+  <data key="d15">0.050238903037415364</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT3G28510">
+  <data key="d15">0.023110392511593483</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G32960">
+  <data key="d15">0.006853338044134394</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT3G14770">
+  <data key="d15">0.010551471346031582</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT4G18990">
+  <data key="d15">0.014720454363189759</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT5G57510">
+  <data key="d15">0.009057507839369188</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G05340">
+  <data key="d15">0.013212539355018543</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT4G28460">
+  <data key="d15">0.002549590665976875</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G33030">
+  <data key="d15">0.0048949251684174385</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT3G03870">
+  <data key="d15">0.016307678425218967</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT4G21380">
+  <data key="d15">0.01443284949972879</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT2G21900">
+  <data key="d15">0.00100478774128439</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT2G29350">
+  <data key="d15">0.011786419940453725</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G05880">
+  <data key="d15">0.04278232948282702</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT3G01650">
+  <data key="d15">0.00817347251740468</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT2G30770">
+  <data key="d15">0.020772424239202912</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G48260">
+  <data key="d15">0.002519995251163982</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT4G23180">
+  <data key="d15">0.0030813655239097593</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT2G29220">
+  <data key="d15">0.029747403417121013</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G05060">
+  <data key="d15">6.649293518229814e-05</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT4G26200">
+  <data key="d15">0.0059617250639699484</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G26410">
+  <data key="d15">0.0811951278313826</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT2G43000">
+  <data key="d15">0.0767909348024679</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G26380">
+  <data key="d15">0.02375511635141036</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT5G67340">
+  <data key="d15">0.007839616374285199</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT3G04630">
+  <data key="d15">0.027785024543285502</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G01190">
+  <data key="d15">0.010494459708887518</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT5G38910">
+  <data key="d15">0.007177496943546153</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G44130">
+  <data key="d15">0.006608499293102556</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G61820">
+  <data key="d15">0.003958204655033398</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT5G22270">
+  <data key="d15">0.009552306878854043</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT4G30790">
+  <data key="d15">4.9370269660859474e-08</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT3G62150">
+  <data key="d15">0.0018929098404494148</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G02310">
+  <data key="d15">0.022630815256287858</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G15500" target="AT1G69790">
+  <data key="d15">0.010643871775421013</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G22540" target="AT5G02790">
+  <data key="d15">0.0023309143649096527</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G22540" target="AT3G26580">
+  <data key="d15">0.12188453654825285</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT2G22540" target="AT1G55260">
+  <data key="d15">7.791808637272811e-07</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G22540" target="AT4G38580">
+  <data key="d15">0.009625932907376332</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G22540" target="AT4G20230">
+  <data key="d15">4.710111191414113e-05</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G22540" target="AT4G23700">
+  <data key="d15">0.0015794402836021863</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT4G26120">
+  <data key="d15">0.050814817023609946</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G07000">
+  <data key="d15">0.002044918263750344</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G72900">
+  <data key="d15">0.048778342361540765</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT5G57220">
+  <data key="d15">0.025550552922841425</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT3G48850">
+  <data key="d15">0.019727610263486888</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT2G02000">
+  <data key="d15">0.0017592548174981606</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT5G42380">
+  <data key="d15">0.0026175316917103164</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G55020">
+  <data key="d15">0.03682036631690111</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G26380">
+  <data key="d15">0.0735896641153478</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT2G47000">
+  <data key="d15">0.003374208159240849</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT3G15500">
+  <data key="d15">0.04531185563385669</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT3G59080">
+  <data key="d15">0.028718810116269235</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G03660">
+  <data key="d15">0.07796735214825366</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G26410">
+  <data key="d15">0.04827573144618574</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT3G14770">
+  <data key="d15">3.8288772012467725e-06</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT2G26560">
+  <data key="d15">0.00015313371153345736</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT2G38340">
+  <data key="d15">0.0021922280716228713</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT4G04990">
+  <data key="d15">0.04567187568324171</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT4G11170">
+  <data key="d15">0.004345006559124974</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT2G35730">
+  <data key="d15">0.004145536266247956</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G19020">
+  <data key="d15">0.013615398309176633</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G69790">
+  <data key="d15">0.04503393178681652</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT4G19980">
+  <data key="d15">0.001870582242236178</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G76070">
+  <data key="d15">0.0001348325519772528</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G05060">
+  <data key="d15">0.0103763558951926</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT4G18250">
+  <data key="d15">0.02098414267399008</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G02530">
+  <data key="d15">0.0001977408202724814</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G42990">
+  <data key="d15">0.0010424962934486113</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT2G30750">
+  <data key="d15">0.020704516631365494</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G74360">
+  <data key="d15">0.005274666539917895</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G66700">
+  <data key="d15">0.06712668739682973</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT4G09100">
+  <data key="d15">0.0045116870293546475</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT3G62150">
+  <data key="d15">0.0020043251377362716</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT3G19580">
+  <data key="d15">0.011642201715662836</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT2G43510">
+  <data key="d15">0.004005275794991944</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT5G26920">
+  <data key="d15">0.05753821068281798</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT2G38860">
+  <data key="d15">0.03818525005789319</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT3G25610">
+  <data key="d15">0.05364895705735067</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT4G01010">
+  <data key="d15">0.02156355316777375</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT4G37370">
+  <data key="d15">0.005746746174289394</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT3G63380">
+  <data key="d15">0.00033841688808939604</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT1G18570">
+  <data key="d15">0.007585723013970598</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT2G01300">
+  <data key="d15">0.013300864918423413</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT3G44720">
+  <data key="d15">0.03188793576946522</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT4G21380">
+  <data key="d15">0.001973766579376776</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT2G45550">
+  <data key="d15">0.006507717091146268</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G43000" target="AT5G25930">
+  <data key="d15">0.02548261425839105</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G74840" target="AT2G15890">
+  <data key="d15">0.2179979994909668</data>
+  <data key="d16">2.5</data>
+</edge>
+<edge source="AT1G74840" target="AT5G24490">
+  <data key="d15">0.28799355989538156</data>
+  <data key="d16">2.5</data>
+</edge>
+<edge source="AT1G74840" target="AT1G80920">
+  <data key="d15">0.371319166002285</data>
+  <data key="d16">3.0</data>
+</edge>
+<edge source="AT2G21900" target="AT5G38900">
+  <data key="d15">0.03749651519785896</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT4G11170">
+  <data key="d15">7.890479032410476e-05</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT1G63750">
+  <data key="d15">0.0022979645877702014</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT1G66090">
+  <data key="d15">0.005349507024588499</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT1G02520">
+  <data key="d15">0.030579737538904587</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT1G23710">
+  <data key="d15">0.04655066173872808</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT1G26410">
+  <data key="d15">0.06950655812873298</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT1G35210">
+  <data key="d15">0.001429099409482938</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT5G42830">
+  <data key="d15">0.0055583862751932</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT4G37900">
+  <data key="d15">0.056008670572835755</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT4G26200">
+  <data key="d15">0.0029447624207645626</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT1G70810">
+  <data key="d15">0.013876007982884946</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT3G03670">
+  <data key="d15">0.0030304910378235257</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT1G26380">
+  <data key="d15">0.029926975069872613</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT1G76700">
+  <data key="d15">0.00016952105756077467</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT5G67340">
+  <data key="d15">0.002712017399879737</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G21900" target="AT1G02530">
+  <data key="d15">0.0002054386043278937</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G18570" target="AT3G59080">
+  <data key="d15">0.023332986510991353</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G18570" target="AT3G01970">
+  <data key="d15">0.0037790390140303356</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G18570" target="AT1G68450">
+  <data key="d15">0.028105136952934515</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G18570" target="AT1G74360">
+  <data key="d15">0.01180988306008458</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G18570" target="AT5G41750">
+  <data key="d15">0.011888431230144353</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G18570" target="AT5G35735">
+  <data key="d15">0.07663618085845275</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G18570" target="AT4G28350">
+  <data key="d15">0.15852034106370924</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT1G18570" target="AT2G39400">
+  <data key="d15">0.055190428958313394</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G18570" target="AT1G02530">
+  <data key="d15">0.011262000122794023</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G18570" target="AT1G02520">
+  <data key="d15">0.0026966327783602773</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G18570" target="AT5G42830">
+  <data key="d15">0.0037712393297522732</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT5G48400">
+  <data key="d15">0.010186476018947435</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT1G02520">
+  <data key="d15">0.029903302218321874</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT3G03670">
+  <data key="d15">0.017393870282075376</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT5G67340">
+  <data key="d15">0.013621422116143887</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT1G08050">
+  <data key="d15">0.0786031073206889</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT1G02530">
+  <data key="d15">0.00520135841339025</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT4G26120">
+  <data key="d15">0.0356776571993813</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT3G47730">
+  <data key="d15">0.0067832146197148785</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT1G13340">
+  <data key="d15">0.08891778677266515</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT1G68450">
+  <data key="d15">0.021871607666158713</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT3G57880">
+  <data key="d15">0.16278249041236598</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT3G23250" target="AT4G18250">
+  <data key="d15">0.0030580846845363295</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT4G37900">
+  <data key="d15">0.00852370520994712</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT5G25250">
+  <data key="d15">0.07677281488335573</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT3G44720">
+  <data key="d15">0.09489100355158342</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT1G74590">
+  <data key="d15">0.026551355330428763</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT1G33030">
+  <data key="d15">0.008849724912393067</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT2G38860">
+  <data key="d15">0.04447214954928719</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT1G67800">
+  <data key="d15">0.08235178212078907</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT3G48020">
+  <data key="d15">0.10107523139070888</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT5G25260">
+  <data key="d15">0.10165198630262974</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G23250" target="AT5G41750">
+  <data key="d15">0.010354338620275315</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G33480" target="AT4G15630">
+  <data key="d15">0.05446821886858754</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G33480" target="AT5G64000">
+  <data key="d15">0.0037278161850648377</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G33480" target="AT3G48020">
+  <data key="d15">0.0003416661153385232</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G33480" target="AT3G19580">
+  <data key="d15">0.046108360041185</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G33480" target="AT1G28190">
+  <data key="d15">0.005198141458609122</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G33480" target="AT5G25610">
+  <data key="d15">0.01762585584229322</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G01970" target="AT1G32230">
+  <data key="d15">0.019580741690436384</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G01970" target="AT1G23710">
+  <data key="d15">0.022120096884018503</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G01970" target="AT1G02530">
+  <data key="d15">0.009468966336670449</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G01970" target="AT1G76070">
+  <data key="d15">0.0172364868302276</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G01970" target="AT1G26410">
+  <data key="d15">0.02549745103888373</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G01970" target="AT1G68450">
+  <data key="d15">0.10340572811497806</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G01970" target="AT1G02520">
+  <data key="d15">0.002218303301395226</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G01970" target="AT4G21620">
+  <data key="d15">0.0404967575204377</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G01970" target="AT5G67340">
+  <data key="d15">0.0045927241080200125</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT4G04890" target="AT5G22500">
+  <data key="d15">0.28213749675283467</data>
+  <data key="d16">2.5</data>
+</edge>
+<edge source="AT4G04890" target="AT5G63560">
+  <data key="d15">0.212533610236199</data>
+  <data key="d16">2.5</data>
+</edge>
+<edge source="AT4G04890" target="AT3G13380">
+  <data key="d15">0.07725349496594039</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT4G04890" target="AT5G25610">
+  <data key="d15">0.010791332591180747</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT4G04890" target="AT1G06360">
+  <data key="d15">0.02592323475935054</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT4G04890" target="AT3G08770">
+  <data key="d15">0.17725609006554605</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT2G24430" target="AT4G14060">
+  <data key="d15">0.004167787833182754</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT5G63560">
+  <data key="d15">0.0693955235044772</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT4G37900">
+  <data key="d15">0.01864318623599607</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT4G29020">
+  <data key="d15">0.023328934018123526</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT1G28010">
+  <data key="d15">0.0028670750478518403</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT4G25960">
+  <data key="d15">0.03223595862195957</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT5G22270">
+  <data key="d15">0.003274186155964991</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT5G22500">
+  <data key="d15">0.0024586779688890014</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT1G55020">
+  <data key="d15">0.10342451554938077</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT1G28470">
+  <data key="d15">0.03681050156627243</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT1G27950">
+  <data key="d15">0.10229501079784825</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT3G16370">
+  <data key="d15">0.2070393450064561</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT2G24430" target="AT1G06360">
+  <data key="d15">0.016723771964348478</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT1G01190">
+  <data key="d15">0.04149568306955738</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT2G39400">
+  <data key="d15">0.04766122686513307</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G24430" target="AT2G42840">
+  <data key="d15">0.051585813317229584</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G30250" target="AT1G18570">
+  <data key="d15">0.08065281914249814</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G30250" target="AT5G57220">
+  <data key="d15">0.019704024410136464</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G30250" target="AT1G76700">
+  <data key="d15">0.047301310055667824</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G30250" target="AT5G25930">
+  <data key="d15">0.08381668442010409</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G30250" target="AT2G18690">
+  <data key="d15">0.03554472102589097</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G30250" target="AT1G23710">
+  <data key="d15">0.024814732907694138</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G30250" target="AT1G70810">
+  <data key="d15">0.01635557761612501</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G30250" target="AT4G33050">
+  <data key="d15">0.13085023534729454</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT2G30250" target="AT3G19580">
+  <data key="d15">0.01005510118514037</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G30250" target="AT5G06740">
+  <data key="d15">0.03932914827799188</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G30250" target="AT1G76070">
+  <data key="d15">0.09198504525464812</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G12820" target="AT5G02780">
+  <data key="d15">0.0074562913373145134</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G46400" target="AT1G32960">
+  <data key="d15">0.009013373538046378</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G46400" target="AT1G26410">
+  <data key="d15">0.002095346775217917</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G50260" target="AT2G30250">
+  <data key="d15">0.026445211302610138</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G50260" target="AT3G19580">
+  <data key="d15">0.1403078445604441</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT3G50260" target="AT5G27420">
+  <data key="d15">0.084763462988713</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G50260" target="AT5G39580">
+  <data key="d15">0.01367258001493049</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G50260" target="AT1G28380">
+  <data key="d15">0.16729649660024784</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT3G50260" target="AT3G55270">
+  <data key="d15">0.15643916436586658</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT3G50260" target="AT1G05340">
+  <data key="d15">0.006108477035166815</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G50260" target="AT5G08240">
+  <data key="d15">0.11114856639559623</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT3G50260" target="AT4G37390">
+  <data key="d15">0.019573473402686305</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G50260" target="AT4G29020">
+  <data key="d15">0.07265690038923167</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G50260" target="AT4G21620">
+  <data key="d15">0.04423799998650874</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G50260" target="AT2G28570">
+  <data key="d15">0.07605225021494225</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G34180" target="AT4G14060">
+  <data key="d15">0.008646289783438973</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G34180" target="AT5G07390">
+  <data key="d15">0.011016767969168714</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G34180" target="AT2G42840">
+  <data key="d15">0.04028006212635723</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G34180" target="AT5G12330">
+  <data key="d15">0.22887059520806846</data>
+  <data key="d16">2.5</data>
+</edge>
+<edge source="AT1G34180" target="AT5G64000">
+  <data key="d15">0.04024158691205429</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G34180" target="AT4G25960">
+  <data key="d15">0.0003526034835497251</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G34180" target="AT5G48410">
+  <data key="d15">0.006486935726080864</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT4G18880" target="AT1G29670">
+  <data key="d15">0.06254861317172428</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT4G18880" target="AT3G48020">
+  <data key="d15">0.04233629875765318</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT4G18880" target="AT5G25930">
+  <data key="d15">0.09594324652634574</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT4G18880" target="AT1G51500">
+  <data key="d15">0.16274446346952187</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT2G38340" target="AT5G05190">
+  <data key="d15">0.012363044763567985</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38340" target="AT3G18250">
+  <data key="d15">0.01676182585947253</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38340" target="AT4G18990">
+  <data key="d15">0.03421067674040157</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38340" target="AT1G57650">
+  <data key="d15">0.016504758925838716</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38340" target="AT5G42380">
+  <data key="d15">0.0010473605135556513</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38340" target="AT3G15500">
+  <data key="d15">0.009933552537516181</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38340" target="AT2G32210">
+  <data key="d15">0.010703615676109487</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38340" target="AT3G10930">
+  <data key="d15">0.002941620961405301</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38340" target="AT1G69790">
+  <data key="d15">0.009868224466926262</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38340" target="AT5G57510">
+  <data key="d15">0.019843191421816158</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT3G19580">
+  <data key="d15">0.006857091188298543</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT1G02530">
+  <data key="d15">0.04458868452916048</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT2G47000">
+  <data key="d15">0.02352785784107185</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT3G62150">
+  <data key="d15">0.032889374948948044</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT4G24510">
+  <data key="d15">0.03090856541930981</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT5G46180">
+  <data key="d15">0.0008333725254462917</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT2G38860">
+  <data key="d15">0.045720480899394164</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT5G60710">
+  <data key="d15">0.021558280307104324</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT1G02520">
+  <data key="d15">0.0024662064789133585</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT5G61560">
+  <data key="d15">0.039864987389475005</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT1G29670">
+  <data key="d15">0.08839611405938923</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT4G25960">
+  <data key="d15">0.060439162506862966</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT5G25930">
+  <data key="d15">0.04508652184881856</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT3G48020">
+  <data key="d15">0.0030136646851510944</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT1G55020">
+  <data key="d15">0.00012160329207416843</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT1G59500">
+  <data key="d15">0.08726973981442426</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT2G17050">
+  <data key="d15">0.002572188021738041</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT1G33030">
+  <data key="d15">0.013143706094569614</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT5G26920">
+  <data key="d15">0.007619663511804253</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G28470" target="AT1G03660">
+  <data key="d15">0.013368384337464333</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38470" target="AT2G30250">
+  <data key="d15">0.009917777584581684</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38470" target="AT5G25930">
+  <data key="d15">0.044616400633352274</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38470" target="AT5G27420">
+  <data key="d15">0.20822864254372928</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT2G38470" target="AT4G33050">
+  <data key="d15">0.0771946112464563</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G38470" target="AT1G18570">
+  <data key="d15">0.010310548748906459</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G47260" target="AT5G59530">
+  <data key="d15">0.17669097336261527</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT1G01060" target="AT3G24170">
+  <data key="d15">0.07488670869214704</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT5G13080" target="AT2G30250">
+  <data key="d15">0.04225003013560776</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G06160" target="AT5G06570">
+  <data key="d15">0.19777714343896757</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT5G18270" target="AT5G54730">
+  <data key="d15">0.036937437291063795</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT5G18270" target="AT3G25610">
+  <data key="d15">0.014693503925727996</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT5G10510" target="AT3G08760">
+  <data key="d15">0.03747304125147451</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G42990" target="AT1G02530">
+  <data key="d15">0.03346045837278327</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G42990" target="AT1G76600">
+  <data key="d15">0.027135877766455412</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G42990" target="AT1G02520">
+  <data key="d15">0.008848562611672856</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT1G33420" target="AT4G15630">
+  <data key="d15">0.12990672390771882</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT3G09600" target="AT1G01060">
+  <data key="d15">0.16547546368524868</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT1G32870" target="AT2G36790">
+  <data key="d15">0.16408206108407622</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT1G32870" target="AT2G36800">
+  <data key="d15">0.41732257084829033</data>
+  <data key="d16">3.0</data>
+</edge>
+<edge source="AT1G27730" target="AT1G25400">
+  <data key="d15">0.1306112450824344</data>
+  <data key="d16">2.0</data>
+</edge>
+<edge source="AT5G28770" target="AT1G28330">
+  <data key="d15">0.07474335597913619</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT2G46830" target="AT1G01060">
+  <data key="d15">0.051089762839530845</data>
+  <data key="d16">1.5</data>
+</edge>
+<edge source="AT3G12720" target="AT2G28660">
+  <data key="d15">0.0011756089902236742</data>
+  <data key="d16">1.5</data>
+</edge>
+</graph></graphml>
