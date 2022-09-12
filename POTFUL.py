@@ -337,7 +337,7 @@ class POTFUL:
 
         enr = gp.enrichr(gene_list=Gene_set,
                          gene_sets=gmt, 
-                         description='test_name',
+                        #  description='test_name',
                          outdir='test',
                          background=Genes,
                          cutoff=1 
