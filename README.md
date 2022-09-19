@@ -18,3 +18,7 @@ conda env create -f [POTFUL.yml](https://github.com/nilesh-iiita/POTFUL/blob/mai
 ##############
 
 https://doc.rust-lang.org/cargo/getting-started/installation.html
+
+curl https://sh.rustup.rs -sSf | sh
+
+source "$HOME/.cargo/env"
