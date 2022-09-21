@@ -1,7 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+__author__ = "\x1b[0;5;37;40m Nilesh Kumar \x1b[0;1;30;47m"
+__copyright__ = "Copyright 2022, UAB"
+__credits__ = ["Nilesh Kumar"]
+__license__ = "GPL"
+__version__ = "0.1.0"
+__maintainer__ = "Nilesh Kumar"
+__email__ = "nilesh.iiita@gmail.com"
+__status__ = "Production"
 
 
 import pandas as pd
@@ -22,13 +29,6 @@ pp = pprint.PrettyPrinter(depth=4)
 import logging
 logging.basicConfig(filename='POTFUL.log', filemode='w', encoding='utf-8', level=logging.INFO)
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
-
-# if not sys.warnoptions:
-#     import os, warnings
-#     warnings.simplefilter("default") # Change the filter in this process
-#     os.environ["PYTHONWARNINGS"] = "default" # Also affect subprocesses
-
-
 
 class POTFUL:
     __author__ = "\x1b[0;5;37;40m Nilesh Kumar \x1b[0;1;30;47m"
@@ -173,6 +173,7 @@ class POTFUL:
         df = pd.read_csv(self.File[Sample_name]["WGCNA"]['NODE'], nrows=3, sep="\t")
         cols = list(df)
         if len(cols) != 3:
+            print("Columns: ",cols)
             logging.error(f"{self.File[Sample_name]['WGCNA']['NODE']} Invalid file!")
             raise ValueError(f"{self.File[Sample_name]['WGCNA']['NODE']} Invalid file!")
               
@@ -185,6 +186,7 @@ class POTFUL:
         df = pd.read_csv(self.File[Sample_name]["WGCNA"]['EDGE'], nrows=3, sep="\t")
         cols = list(df)
         if len(cols) != 3:
+            print("Cols: ", cols)
             logging.error(f"{self.File[Sample_name]['WGCNA']['EDGE']} Invalid file!")
             raise ValueError(f"{self.File[Sample_name]['WGCNA']['EDGE']} Invalid file!")
                     
@@ -958,10 +960,10 @@ class POTFUL:
         g.from_nx(G)
 
         # g.show_buttons()
-        HTML_FILE = self.OutDir+"Overlapping_network.html"
+        HTML_FILE = self.OutDir+sample1+"_"+sample2+"_"+"Overlapping_network.html"
         g.save_graph(HTML_FILE)
-        self.Plots['Overlap_Network_Viz'] = g
-        self.File["Overlap_Network_HTML"] = HTML_FILE
+        self.Plots[sample1+"_"+sample2+"_"+'Overlap_Network_Viz'] = g
+        self.File[sample1+"_"+sample2+"_"+"Overlap_Network_HTML"] = HTML_FILE
         
         nx.write_graphml_lxml(G, self.OutDir+"Overlapping_network.graphml")
         
