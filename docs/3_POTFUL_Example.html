@@ -1,0 +1,1142 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Demo &#8212; POTFUL</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Gene regulatory network inference" href="2_GRN_grnboost.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">POTFUL</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    POTFUL
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Installation%20and%20environment%20setup.html">
+   Installation and environment setup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_Expression_data.html">
+   Download expression data
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2_GRN_grnboost.html">
+   Gene regulatory network inference
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Demo
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/nilesh-iiita/POTFUL/master?urlpath=tree/docs/3_POTFUL_Example.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/nilesh-iiita/POTFUL"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/nilesh-iiita/POTFUL/issues/new?title=Issue%20on%20page%20%2F3_POTFUL_Example.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/3_POTFUL_Example.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.ipynb</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-auxiliary-files">
+   LOAD Auxiliary Files
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-uncut-files">
+   LOAD ‘Uncut’ Files
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-3hpc-files">
+   LOAD ‘3hpc’ Files
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#define-samples">
+   Define Samples
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#create-gmt-file-for-both-samples-for-enrichment-analysis">
+   Create GMT file for both samples for enrichment analysis
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plot-wgcna-module-barplot-uncut">
+   Plot WGCNA module barplot (Uncut)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plot-wgcna-module-barplot-3hpc">
+   Plot WGCNA module barplot (3hpc)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#wgcna-module-wise-enrichment-uncut-vs-3hpc">
+   WGCNA module wise enrichment Uncut vs 3hpc
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tf-network-overlap">
+   TF Network overlap
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tf-co-expression-network-overlap">
+   TF Co-expression Network overlap
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#network-centrality-analysis">
+   Network centrality analysis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#save-graphml-file">
+     Save GraphML file
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#generate-network-visualization-html-file">
+   Generate network visualization html file
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#display-html-graph-file-ph">
+     Display html graph file (pH)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#display-html-graph-file-3hpc">
+     Display html graph file (3hpc)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#display-html-graph-file-ph-and-sulfur-overlap">
+     Display html graph file (pH and Sulfur overlap)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#list-all-plots">
+     List all plots
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Demo</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-auxiliary-files">
+   LOAD Auxiliary Files
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-uncut-files">
+   LOAD ‘Uncut’ Files
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-3hpc-files">
+   LOAD ‘3hpc’ Files
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#define-samples">
+   Define Samples
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#create-gmt-file-for-both-samples-for-enrichment-analysis">
+   Create GMT file for both samples for enrichment analysis
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plot-wgcna-module-barplot-uncut">
+   Plot WGCNA module barplot (Uncut)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plot-wgcna-module-barplot-3hpc">
+   Plot WGCNA module barplot (3hpc)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#wgcna-module-wise-enrichment-uncut-vs-3hpc">
+   WGCNA module wise enrichment Uncut vs 3hpc
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tf-network-overlap">
+   TF Network overlap
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tf-co-expression-network-overlap">
+   TF Co-expression Network overlap
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#network-centrality-analysis">
+   Network centrality analysis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#save-graphml-file">
+     Save GraphML file
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#generate-network-visualization-html-file">
+   Generate network visualization html file
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#display-html-graph-file-ph">
+     Display html graph file (pH)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#display-html-graph-file-3hpc">
+     Display html graph file (3hpc)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#display-html-graph-file-ph-and-sulfur-overlap">
+     Display html graph file (pH and Sulfur overlap)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#list-all-plots">
+     List all plots
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="demo">
+<h1>Demo<a class="headerlink" href="#demo" title="Permalink to this headline">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+<span class="c1"># caution: path[0] is reserved for script path (or &#39;&#39; in REPL)</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;.&#39;</span><span class="p">)</span>
+<span class="kn">import</span> <span class="nn">pprint</span>
+<span class="n">pp</span> <span class="o">=</span> <span class="n">pprint</span><span class="o">.</span><span class="n">PrettyPrinter</span><span class="p">(</span><span class="n">depth</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">compact</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="kn">from</span> <span class="nn">POTFUL</span> <span class="kn">import</span> <span class="n">POTFUL</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span> <span class="o">=</span> <span class="n">POTFUL</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span><span class=" -Color -Color-Red -Color-Red-BGBlack"> POTFUL </span>
+
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">                                        </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">                                        </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">                                        </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">                                        </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">        </span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlack">S</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">t</span><span class=" -Color -Color-Red -Color-Red-BGBlack">X</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.  </span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlack">@</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">:</span><span class=" -Color -Color-Black -Color-Black-BGBlack">X</span><span class=" -Color -Color-Red -Color-Red-BGBlack">;</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">     </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">               </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">       :</span><span class=" -Color -Color-Yellow -Color-Yellow-BGBlack"> </span><span class=" -Color -Color-White -Color-White-BGBlack">8</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">8</span><span class=" -Color -Color-Green -Color-Green-BGBlack">S</span><span class=" -Color -Color-Red -Color-Red-BGBlack">  ;</span><span class=" -Color -Color-White -Color-White-BGBlack">X8</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">8</span><span class=" -Color -Color-Black -Color-Black-BGBlack">@</span><span class=" -Color -Color-Green -Color-Green-BGBlack">   .</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack">     </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">           </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">      </span><span class=" -Color -Color-Green -Color-Green-BGBlack"> </span><span class=" -Color -Color-Black -Color-Black-BGBlack">8</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">8</span><span class=" -Color -Color-White -Color-White-BGBlack">88</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlack">X</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack"> .</span><span class=" -Color -Color-Black -Color-Black-BGBlack">X</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">8</span><span class=" -Color -Color-White -Color-White-BGBlack">8X</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack"> </span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlack">8</span><span class=" -Color -Color-White -Color-White-BGBlack">S</span><span class=" -Color -Color-Yellow -Color-Yellow-BGBlack"> </span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlack">@</span><span class=" -Color -Color-Red -Color-Red-BGBlack">   </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">            </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">     </span><span class=" -Color -Color-Green -Color-Green-BGBlack"> </span><span class=" -Color -Color-Red -Color-Red-BGBlack"> </span><span class=" -Color -Color-Yellow -Color-Yellow-BGBlack">;</span><span class=" -Color -Color-White -Color-White-BGBlack">8</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">8</span><span class=" -Color -Color-Magenta -Color-Magenta-BGBlack"> </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">:</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Yellow -Color-Yellow-BGBlack"> </span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">8</span><span class=" -Color -Color-White -Color-White-BGBlack">8</span><span class=" -Color -Color-Magenta -Color-Magenta-BGBlack"> </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">:</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">:</span><span class=" -Color -Color-Magenta -Color-Magenta-BGBlack"> </span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">X8</span><span class=" -Color -Color-Black -Color-Black-BGBlack">X</span><span class=" -Color -Color-Red -Color-Red-BGBlack">    </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">           </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">     </span><span class=" -Color -Color-Red -Color-Red-BGBlack"> </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Magenta -Color-Magenta-BGBlack">;</span><span class=" -Color -Color-White -Color-White-BGBlack">SS</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlack">8</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack"> </span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlack">8</span><span class=" -Color -Color-White -Color-White-BGBlack">8</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">8</span><span class=" -Color -Color-White -Color-White-BGBlack">8</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlack">@</span><span class=" -Color -Color-Red -Color-Red-BGBlack"> .</span><span class=" -Color -Color-Black -Color-Black-BGBlack">X</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">8</span><span class=" -Color -Color-White -Color-White-BGBlack">8X</span><span class=" -Color -Color-Red -Color-Red-BGBlack">t</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">             </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">    </span><span class=" -Color -Color-Red -Color-Red-BGBlack">  </span><span class=" -Color -Color-Green -Color-Green-BGBlack">  :</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">:</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">  </span><span class=" -Color -Color-Yellow -Color-Yellow-BGBlack">.</span><span class=" -Color -Color-White -Color-White-BGBlack">88</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack"> </span><span class=" -Color -Color-Red -Color-Red-BGBlack">:</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Magenta -Color-Magenta-BGBlack"> </span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">88</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack"> </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">             </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">    </span><span class=" -Color -Color-Green -Color-Green-BGBlack">    </span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.   </span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">:</span><span class=" -Color -Color-White -Color-White-BGBlack">88</span><span class=" -Color -Color-Black -Color-Black-BGBlack">X</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack"> .</span><span class=" -Color -Color-Magenta -Color-Magenta-BGBlack"> </span><span class=" -Color -Color-White -Color-White-BGBlack">8X</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlack">8</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">     </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">          </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">    </span><span class=" -Color -Color-Green -Color-Green-BGBlack">     </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">  </span><span class=" -Color -Color-Red -Color-Red-BGBlack">  :</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack">  .</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack">;</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">:</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.      </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">  t</span><span class=" -Color -Color-Black -Color-Black-BGBlack">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">8%</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack"> </span><span class=" -Color -Color-Black -Color-Black-BGBlue">8</span><span class=" -Color -Color-Green -Color-Green-BGBlack">:</span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">    </span><span class=" -Color -Color-Green -Color-Green-BGBlack">     </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">  </span><span class=" -Color -Color-Red -Color-Red-BGBlack"> </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">    ...</span><span class=" -Color -Color-Red -Color-Red-BGBlack">   </span><span class=" -Color -Color-Green -Color-Green-BGBlack">   </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;S</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">S</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">888</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">XX8</span><span class=" -Color -Color-Black -Color-Black-BGBlue">8</span><span class=" -Color -Color-Red -Color-Red-BGBlack">;</span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack"> ;</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">X%t</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">.</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">8</span><span class=" -Color -Color-White -Color-White-BGCyan">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">8</span><span class=" -Color -Color-Blue -Color-Blue-BGBlue">8</span><span class=" -Color -Color-Magenta -Color-Magenta-BGBlack">X</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">8</span><span class=" -Color -Color-Red -Color-Red-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Black -Color-Black-BGBlack">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8@</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">X</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@@</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">S</span><span class=" -Color -Color-Magenta -Color-Magenta-BGBlue">X</span><span class=" -Color -Color-Black -Color-Black-BGBlue">@</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">@t</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">..</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack"> @</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlue">t</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">888@8</span><span class=" -Color -Color-Black -Color-Black-BGBlue">8</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">@@8</span><span class=" -Color -Color-Black -Color-Black-BGBlue">8</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">8@8</span><span class=" -Color -Color-Black -Color-Black-BGBlue">8</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">8@8</span><span class=" -Color -Color-Black -Color-Black-BGBlue">8</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">8@</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">;</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGCyan">8</span><span class=" -Color -Color-Black -Color-Black-BGBlue">8</span><span class=" -Color -Color-Red -Color-Red-BGBlack">:</span><span class=" -Color -Color-Green -Color-Green-BGBlack">:</span><span class=" -Color -Color-Red -Color-Red-BGBlack">:..</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">    </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack"> %</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">88</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">%</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Red -Color-Red-BGBlack">;:.:::.:::::::::::</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">%</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Magenta -Color-Magenta-BGBlack">X</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">t.</span><span class=" -Color -Color-Red -Color-Red-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">.  </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">    </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack"> .</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlue">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">@</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">t</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlue">@</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">:</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">:</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">:</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">%</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">8;</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlue">t</span><span class=" -Color -Color-Black -Color-Black-BGBlack">8</span><span class=" -Color -Color-Green -Color-Green-BGBlack">   </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">  </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">    </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack"> </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">:</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlue">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">@</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">8888888888888888@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">8</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">8</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">8</span><span class=" -Color -Color-Green -Color-Green-BGBlack">       </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">    </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">  </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">;</span><span class=" -Color -Color-Black -Color-Black-BGBlue">X</span><span class=" -Color -Color-Cyan -Color-Cyan-BGBlack">t</span><span class=" -Color -Color-Cyan -Color-Cyan-BGWhite">88</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">@</span><span class=" -Color -Color-Bold -Color-Bold-Cyan -Color-Bold-Cyan-BGWhite">8</span><span class=" -Color -Color-Bold -Color-Bold-Blue -Color-Bold-Blue-BGWhite">8</span><span class=" -Color -Color-White -Color-White-BGCyan">8</span><span class=" -Color -Color-Bold -Color-Bold-Black -Color-Bold-Black-BGBlue">8</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">8</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.        </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">   </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">  </span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">:%S88888888888888888S%;</span><span class=" -Color -Color-Red -Color-Red-BGBlack">:</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.       </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">    </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">   </span><span class=" -Color -Color-Red -Color-Red-BGBlack">  </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Red -Color-Red-BGBlack">..</span><span class=" -Color -Color-Green -Color-Green-BGBlack">:</span><span class=" -Color -Color-Red -Color-Red-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Red -Color-Red-BGBlack">;</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Red -Color-Red-BGBlack">t</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Red -Color-Red-BGBlack">t</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Red -Color-Red-BGBlack">t</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Red -Color-Red-BGBlack">t</span><span class=" -Color -Color-Green -Color-Green-BGBlack">;</span><span class=" -Color -Color-Red -Color-Red-BGBlack">;:...</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">        </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">   </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">  </span><span class=" -Color -Color-Red -Color-Red-BGBlack">   </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">  </span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">.</span><span class=" -Color -Color-Red -Color-Red-BGBlack">.</span><span class=" -Color -Color-Green -Color-Green-BGBlack">..</span><span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">   </span><span class=" -Color -Color-Red -Color-Red-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">        </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">   </span>
+<span class=" -Color -Color-Blue -Color-Blue-BGBlack">  </span><span class=" -Color -Color-Green -Color-Green-BGBlack"> </span><span class=" -Color -Color-Red -Color-Red-BGBlack">   </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">     </span><span class=" -Color -Color-Green -Color-Green-BGBlack"> .</span><span class=" -Color -Color-Red -Color-Red-BGBlack">  </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack"> </span><span class=" -Color -Color-Green -Color-Green-BGBlack">  </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">  .    </span><span class=" -Color -Color-Green -Color-Green-BGBlack">             </span><span class=" -Color -Color-Blue -Color-Blue-BGBlack">  </span>
+Results will be saved in &#39;POTFUL_OUT/&#39; folder
+</pre></div>
+</div>
+</div>
+</div>
+<section id="load-auxiliary-files">
+<h2>LOAD Auxiliary Files<a class="headerlink" href="#load-auxiliary-files" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">Load_Auxiliary_Files</span><span class="p">(</span><span class="n">WGCNA_COLOR_MAP</span><span class="o">=</span><span class="s2">&quot;Auxiliary_File/WGCNA_COLOR_MAP.csv&quot;</span><span class="p">,</span> 
+                         <span class="n">TF_Targets</span><span class="o">=</span><span class="s2">&quot;Auxiliary_File/masterTF-target.txt&quot;</span><span class="p">,</span> 
+                         <span class="n">TF_Family</span><span class="o">=</span><span class="s2">&quot;Auxiliary_File/Arabidopsis_TF and family.csv&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;TF_Family&#39;: &#39;Auxiliary_File/Arabidopsis_TF and family.csv&#39;,
+ &#39;TF_Targets&#39;: &#39;Auxiliary_File/masterTF-target.txt&#39;,
+ &#39;WGCNA_COLOR_MAP&#39;: &#39;Auxiliary_File/WGCNA_COLOR_MAP.csv&#39;}
+🍲Auxiliary File None
+{&#39;TF_Family&#39;: &#39;Auxiliary_File/Arabidopsis_TF and family.csv&#39;,
+ &#39;TF_Targets&#39;: &#39;Auxiliary_File/masterTF-target.txt&#39;,
+ &#39;WGCNA_COLOR_MAP&#39;: &#39;Auxiliary_File/WGCNA_COLOR_MAP.csv&#39;}
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="load-uncut-files">
+<h2>LOAD ‘Uncut’ Files<a class="headerlink" href="#load-uncut-files" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">Load_Files</span><span class="p">(</span><span class="n">Sample_name</span><span class="o">=</span><span class="s2">&quot;Uncut&quot;</span><span class="p">,</span>
+               <span class="n">NODE_File</span><span class="o">=</span><span class="s2">&quot;2_WGCNA_data/WGCNA_GSE74488_Uncut/Nodes_Uncut.txt&quot;</span><span class="p">,</span>
+               <span class="n">EDGE_File</span><span class="o">=</span><span class="s2">&quot;2_WGCNA_data/WGCNA_GSE74488_Uncut/Edges_Uncut.txt&quot;</span><span class="p">,</span>
+               <span class="n">GRN_File</span><span class="o">=</span><span class="s2">&quot;3_GRN_data/GSE74488_Uncut_arboreto_regnet.tsv&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Uncut
+🍲Sample Uncut
+3_GRN_data/GSE74488_Uncut_arboreto_regnet.tsv
+defaultdict(&lt;class &#39;dict&#39;&gt;,
+            {&#39;Uncut&#39;: {&#39;GRN&#39;: &#39;3_GRN_data/GSE74488_Uncut_arboreto_regnet.tsv&#39;,
+                       &#39;WGCNA&#39;: {&#39;EDGE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_Uncut/Edges_Uncut.txt&#39;,
+                                 &#39;NODE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_Uncut/Nodes_Uncut.txt&#39;}}})
+🍲 Files None
+defaultdict(&lt;class &#39;dict&#39;&gt;,
+            {&#39;Uncut&#39;: {&#39;GRN&#39;: &#39;3_GRN_data/GSE74488_Uncut_arboreto_regnet.tsv&#39;,
+                       &#39;WGCNA&#39;: {&#39;EDGE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_Uncut/Edges_Uncut.txt&#39;,
+                                 &#39;NODE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_Uncut/Nodes_Uncut.txt&#39;}}})
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="load-3hpc-files">
+<h2>LOAD ‘3hpc’ Files<a class="headerlink" href="#load-3hpc-files" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">Load_Files</span><span class="p">(</span><span class="n">Sample_name</span><span class="o">=</span><span class="s2">&quot;3hpc&quot;</span><span class="p">,</span>
+               <span class="n">NODE_File</span><span class="o">=</span><span class="s2">&quot;2_WGCNA_data/WGCNA_GSE74488_3hpc/Nodes_3hpc.txt&quot;</span><span class="p">,</span>
+               <span class="n">EDGE_File</span><span class="o">=</span><span class="s2">&quot;2_WGCNA_data/WGCNA_GSE74488_3hpc/Edges_3hpc.txt&quot;</span><span class="p">,</span>
+               <span class="n">GRN_File</span><span class="o">=</span><span class="s2">&quot;3_GRN_data/GSE74488_3hpc_arboreto_regnet.tsv&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3hpc
+🍲Sample 3hpc
+3_GRN_data/GSE74488_3hpc_arboreto_regnet.tsv
+defaultdict(&lt;class &#39;dict&#39;&gt;,
+            {&#39;3hpc&#39;: {&#39;GRN&#39;: &#39;3_GRN_data/GSE74488_3hpc_arboreto_regnet.tsv&#39;,
+                      &#39;WGCNA&#39;: {&#39;EDGE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_3hpc/Edges_3hpc.txt&#39;,
+                                &#39;NODE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_3hpc/Nodes_3hpc.txt&#39;}},
+             &#39;Uncut&#39;: {&#39;GRN&#39;: &#39;3_GRN_data/GSE74488_Uncut_arboreto_regnet.tsv&#39;,
+                       &#39;WGCNA&#39;: {&#39;EDGE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_Uncut/Edges_Uncut.txt&#39;,
+                                 &#39;NODE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_Uncut/Nodes_Uncut.txt&#39;}}})
+🍲 Files None
+defaultdict(&lt;class &#39;dict&#39;&gt;,
+            {&#39;3hpc&#39;: {&#39;GRN&#39;: &#39;3_GRN_data/GSE74488_3hpc_arboreto_regnet.tsv&#39;,
+                      &#39;WGCNA&#39;: {&#39;EDGE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_3hpc/Edges_3hpc.txt&#39;,
+                                &#39;NODE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_3hpc/Nodes_3hpc.txt&#39;}},
+             &#39;Uncut&#39;: {&#39;GRN&#39;: &#39;3_GRN_data/GSE74488_Uncut_arboreto_regnet.tsv&#39;,
+                       &#39;WGCNA&#39;: {&#39;EDGE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_Uncut/Edges_Uncut.txt&#39;,
+                                 &#39;NODE&#39;: &#39;2_WGCNA_data/WGCNA_GSE74488_Uncut/Nodes_Uncut.txt&#39;}}})
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="define-samples">
+<h2>Define Samples<a class="headerlink" href="#define-samples" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">Samples</span> <span class="o">=</span> <span class="n">POT</span><span class="o">.</span><span class="n">Samples</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">Samples</span><span class="p">)):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">Samples</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0 Uncut
+1 3hpc
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="create-gmt-file-for-both-samples-for-enrichment-analysis">
+<h2>Create GMT file for both samples for enrichment analysis<a class="headerlink" href="#create-gmt-file-for-both-samples-for-enrichment-analysis" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">WGCNA_Bucket_GMT</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>GMT_base/POTFUL-Uncut.gmt 8921
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>GMT_base/POTFUL-3hpc.gmt 4756
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">Samples</span><span class="p">)):</span>
+    <span class="nb">print</span><span class="p">((</span><span class="n">POT</span><span class="o">.</span><span class="n">File</span><span class="p">[</span><span class="n">Samples</span><span class="p">[</span><span class="n">i</span><span class="p">]][</span><span class="s1">&#39;GMT&#39;</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>GMT_base/POTFUL-Uncut.gmt
+GMT_base/POTFUL-3hpc.gmt
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="plot-wgcna-module-barplot-uncut">
+<h2>Plot WGCNA module barplot (Uncut)<a class="headerlink" href="#plot-wgcna-module-barplot-uncut" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">POT</span><span class="o">.</span><span class="n">Plots</span><span class="p">[</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="s1">&#39;WGCNA_BarPlot&#39;</span><span class="p">]</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="n">POT</span><span class="o">.</span><span class="n">OutDir</span><span class="o">+</span><span class="s2">&quot;0_Uncut.png&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><img alt="" src="_images/0_Uncut.png" /></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">({</span>
+        <span class="s1">&#39;plot_bgcolor&#39;</span><span class="p">:</span> <span class="s1">&#39;rgba(0, 0, 0, 0)&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;paper_bgcolor&#39;</span><span class="p">:</span> <span class="s1">&#39;rgba(0, 0, 0, 0)&#39;</span><span class="p">,})</span>
+    
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+    <span class="n">autosize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">width</span><span class="o">=</span><span class="mi">350</span><span class="p">,</span>
+    <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span>
+    <span class="n">plot_bgcolor</span><span class="o">=</span><span class="s1">&#39;rgba(0,0,0,0)&#39;</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+<span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> WGCNA bar plot&quot;</span><span class="p">,</span>
+<span class="n">font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+    <span class="n">family</span><span class="o">=</span><span class="s2">&quot;Arial&quot;</span><span class="p">,</span>
+    <span class="n">size</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span>
+    <span class="n">color</span><span class="o">=</span><span class="s2">&quot;black&quot;</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">showline</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">linecolor</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">mirror</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="n">showline</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">linecolor</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">mirror</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="n">POT</span><span class="o">.</span><span class="n">OutDir</span><span class="o">+</span><span class="sa">f</span><span class="s2">&quot;1_</span><span class="si">{</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">.png&quot;</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="n">POT</span><span class="o">.</span><span class="n">OutDir</span><span class="o">+</span><span class="sa">f</span><span class="s2">&quot;1_</span><span class="si">{</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">.svg&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><img alt="Uncut Barplot" src="_images/1_Uncut.png" /></p>
+</section>
+<section id="plot-wgcna-module-barplot-3hpc">
+<h2>Plot WGCNA module barplot (3hpc)<a class="headerlink" href="#plot-wgcna-module-barplot-3hpc" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">POT</span><span class="o">.</span><span class="n">Plots</span><span class="p">[</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">]][</span><span class="s1">&#39;WGCNA_BarPlot&#39;</span><span class="p">]</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+    <span class="n">autosize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">width</span><span class="o">=</span><span class="mi">350</span><span class="p">,</span>
+    <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span>
+    <span class="n">plot_bgcolor</span><span class="o">=</span><span class="s1">&#39;rgba(0,0,0,0)&#39;</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+<span class="n">font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+    <span class="n">family</span><span class="o">=</span><span class="s2">&quot;Arial&quot;</span><span class="p">,</span>
+    <span class="n">size</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span>
+    <span class="n">color</span><span class="o">=</span><span class="s2">&quot;black&quot;</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">showline</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">linecolor</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">mirror</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="n">showline</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">linecolor</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">mirror</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="n">POT</span><span class="o">.</span><span class="n">OutDir</span><span class="o">+</span><span class="sa">f</span><span class="s2">&quot;2_</span><span class="si">{</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">.png&quot;</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="n">POT</span><span class="o">.</span><span class="n">OutDir</span><span class="o">+</span><span class="sa">f</span><span class="s2">&quot;2_</span><span class="si">{</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">.svg&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><img alt="3hpc Barplot" src="_images/2_3hpc.png" /></p>
+</section>
+<section id="wgcna-module-wise-enrichment-uncut-vs-3hpc">
+<h2>WGCNA module wise enrichment Uncut vs 3hpc<a class="headerlink" href="#wgcna-module-wise-enrichment-uncut-vs-3hpc" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">WGCNA_Module_Enrichment</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">POT</span><span class="o">.</span><span class="n">Data</span><span class="p">[</span><span class="s2">&quot;Enrichment_Dotplot&quot;</span><span class="p">])</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">POT</span><span class="o">.</span><span class="n">Plots</span><span class="p">[</span><span class="s2">&quot;Enrichment_Dotplot&quot;</span><span class="p">]</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+    <span class="n">autosize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">width</span><span class="o">=</span><span class="mi">490</span><span class="p">,</span>
+    <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span>
+<span class="n">font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+    <span class="n">family</span><span class="o">=</span><span class="s2">&quot;Arial&quot;</span><span class="p">,</span>
+    <span class="n">size</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span>
+    <span class="n">color</span><span class="o">=</span><span class="s2">&quot;black&quot;</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="n">POT</span><span class="o">.</span><span class="n">OutDir</span><span class="o">+</span><span class="sa">f</span><span class="s2">&quot;3hpc__UncutEnri_dot.png&quot;</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="n">POT</span><span class="o">.</span><span class="n">OutDir</span><span class="o">+</span><span class="sa">f</span><span class="s2">&quot;3hpc__UncutEnri_dot.svg&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3hpc Uncut
+
+Total Number of genes in 12088
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>   Gene_set (Uncut)  Term (3hpc)  Overlap       P-value  Adjusted P-value  \
+4                red  greenyellow  20/175  1.438619e-03      1.726343e-02   
+7            magenta       purple  21/166  2.583919e-08      2.583919e-07   
+10             brown    turquoise  73/914  2.693691e-08      3.232430e-07   
+5              black         pink  45/349  1.475838e-12      1.475838e-11   
+
+    Odds Ratio Significance                                              Genes  
+4     2.165923            *  AT2G11780;AT1G63330;AT2G44995;AT1G63400;AT1G66...  
+7     4.481927          ***  AT3G58200;AT2G44195;AT4G14690;AT1G59840;AT4G18...  
+10    2.105779          ***  AT2G12190;AT5G41290;AT1G13630;AT3G26680;AT2G26...  
+5     3.550101          ***  AT5G56120;AT3G51280;AT3G02120;AT4G37920;AT3G55...  
+</pre></div>
+</div>
+</div>
+</div>
+<p><img alt="'Enrichment_uncut_3hpc'" src="_images/3hpc__UncutEnri_dot.png" /></p>
+</section>
+<section id="tf-network-overlap">
+<h2>TF Network overlap<a class="headerlink" href="#tf-network-overlap" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">merge_TF_reg</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">POT</span><span class="o">.</span><span class="n">merge_TF_reg</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Uncut Auxiliary_File/masterTF-target.txt 3_GRN_data/GSE74488_Uncut_arboreto_regnet.tsv
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Total number of TFT pairs in Auxiliary_File/masterTF-target.txt :2357032
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scaled Dataset Using Pandas
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Total number of TFT pairs in 3_GRN_data/GSE74488_Uncut_arboreto_regnet.tsv :4115241
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Total number of common pairs:171069
+Total number of common pairs:171069
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3hpc Auxiliary_File/masterTF-target.txt 3_GRN_data/GSE74488_3hpc_arboreto_regnet.tsv
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Total number of TFT pairs in Auxiliary_File/masterTF-target.txt :2357032
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scaled Dataset Using Pandas
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>AT1G68150 AT1G06630
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="tf-co-expression-network-overlap">
+<h2>TF Co-expression Network overlap<a class="headerlink" href="#tf-co-expression-network-overlap" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">merge_reg_coexp</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">POT</span><span class="o">.</span><span class="n">merge_reg_coexp</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2_WGCNA_data/WGCNA_GSE74488_Uncut/Edges_Uncut.txt
+Total number of coexpressed combo-pairs:1126488
+Total number of common pairs:1095
+Total number of common pairs:1095
+POTFUL_OUT/Uncut_Coexp_GRN.tsv DiGraph with 1015 nodes and 1095 edges
+2_WGCNA_data/WGCNA_GSE74488_3hpc/Edges_3hpc.txt
+Total number of coexpressed combo-pairs:333250
+Total number of common pairs:229
+Total number of common pairs:229
+POTFUL_OUT/3hpc_Coexp_GRN.tsv DiGraph with 266 nodes and 229 edges
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="network-centrality-analysis">
+<h2>Network centrality analysis<a class="headerlink" href="#network-centrality-analysis" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">network_centrality</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">POT</span><span class="o">.</span><span class="n">network_centrality</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>DiGraph with 1015 nodes and 1095 edges
+DiGraph with 1015 nodes and 1095 edges
+Degree Dict True
+Betweenness Dict True
+Degree Dict True
+clust Dict True
+DiGraph with 266 nodes and 229 edges
+DiGraph with 266 nodes and 229 edges
+Degree Dict True
+Betweenness Dict True
+Degree Dict True
+clust Dict True
+</pre></div>
+</div>
+</div>
+</div>
+<section id="save-graphml-file">
+<h3>Save GraphML file<a class="headerlink" href="#save-graphml-file" title="Permalink to this headline">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">generate_graphml_out</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">POT</span><span class="o">.</span><span class="n">generate_graphml_out</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>DiGraph with 1015 nodes and 1095 edges
+DiGraph with 266 nodes and 229 edges
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># POT.Data[&#39;Uncut&#39;][&quot;Network&quot;].nodes</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="generate-network-visualization-html-file">
+<h2>Generate network visualization html file<a class="headerlink" href="#generate-network-visualization-html-file" title="Permalink to this headline">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">Graph_vis</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">POT</span><span class="o">.</span><span class="n">Graph_vis</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="display-html-graph-file-ph">
+<h3>Display html graph file (pH)<a class="headerlink" href="#display-html-graph-file-ph" title="Permalink to this headline">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># POT.Plots[Samples[0]][&#39;Network_Viz&#39;].show(POT.OutDir+&#39;Uncut.html&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><img alt="pH" src="_images/4_Uncut_network.png" /></p>
+</section>
+<section id="display-html-graph-file-3hpc">
+<h3>Display html graph file (3hpc)<a class="headerlink" href="#display-html-graph-file-3hpc" title="Permalink to this headline">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># POT.Plots[Samples[1]][&#39;Network_Viz&#39;].show(POT.OutDir+&#39;3hpc.html&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><img alt="3hpc" src="_images/5_3hpc_network.png" /></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">network_overlap</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>🍲 👌 There are 20 nodes overlapping between pair of Graphs
+{&#39;AT4G36900&#39;, &#39;AT1G58340&#39;, &#39;AT5G42070&#39;, &#39;AT3G10113&#39;, &#39;AT2G42150&#39;, &#39;AT1G75388&#39;, &#39;AT2G18380&#39;, &#39;AT1G18330&#39;, &#39;AT2G45420&#39;, &#39;AT1G75820&#39;, &#39;AT1G75390&#39;, &#39;AT4G08940&#39;, &#39;AT3G01530&#39;, &#39;AT3G03200&#39;, &#39;AT5G62320&#39;, &#39;AT3G04030&#39;, &#39;AT1G51220&#39;, &#39;AT2G45660&#39;, &#39;AT5G46590&#39;, &#39;AT5G41920&#39;}
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># pp.pprint(POT.Data[Samples[0]][Samples[1]])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="display-html-graph-file-ph-and-sulfur-overlap">
+<h3>Display html graph file (pH and Sulfur overlap)<a class="headerlink" href="#display-html-graph-file-ph-and-sulfur-overlap" title="Permalink to this headline">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># POT.Plots[&#39;Uncut_3hpc_Overlap_Network_Viz&#39;].show(POT.OutDir+&#39;Overlap.html&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><img alt="Uncut_3hpc" src="_images/Overlap.png" /></p>
+</section>
+<section id="list-all-plots">
+<h3>List all plots<a class="headerlink" href="#list-all-plots" title="Permalink to this headline">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">list</span><span class="p">(</span><span class="n">POT</span><span class="o">.</span><span class="n">Plots</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Uncut&#39;, &#39;3hpc&#39;, &#39;Enrichment_Dotplot&#39;, &#39;Uncut_3hpc_Overlap_Network_Viz&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">session_info</span>
+<span class="n">session_info</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">html</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>-----
+POTFUL              0.1.1
+plotly              5.10.0
+session_info        1.0.0
+-----
+IPython             8.5.0
+jupyter_client      7.3.5
+jupyter_core        4.11.1
+jupyterlab          3.4.6
+notebook            6.4.12
+-----
+Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)]
+Windows-10-10.0.22622-SP0
+-----
+Session information updated at 2022-09-28 05:47
+</pre></div>
+</div>
+</div>
+</div>
+<p>END</p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="2_GRN_grnboost.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Gene regulatory network inference</p>
+        </div>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Nilesh Kumar<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,45 @@
+Traceback (most recent call last):
+  File "/home/nileshkr/anaconda3/envs/POTFUL/lib/python3.10/site-packages/jupyter_cache/executors/utils.py", line 51, in single_nb_execution
+    executenb(
+  File "/home/nileshkr/anaconda3/envs/POTFUL/lib/python3.10/site-packages/nbclient/client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/home/nileshkr/anaconda3/envs/POTFUL/lib/python3.10/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/home/nileshkr/anaconda3/envs/POTFUL/lib/python3.10/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+  File "/home/nileshkr/anaconda3/envs/POTFUL/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/home/nileshkr/anaconda3/envs/POTFUL/lib/python3.10/site-packages/nbclient/client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "/home/nileshkr/anaconda3/envs/POTFUL/lib/python3.10/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/nileshkr/anaconda3/envs/POTFUL/lib/python3.10/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+import GEOparse
+import pandas as pd
+import numpy as np
+import re
+from pathlib import Path
+import pylab as pl
+import seaborn as sns
+pl.rcParams['figure.figsize'] = (14, 10)
+pl.rcParams['ytick.labelsize'] = 12
+pl.rcParams['xtick.labelsize'] = 11
+pl.rcParams['axes.labelsize'] = 23
+pl.rcParams['legend.fontsize'] = 20
+sns.set_style('ticks')
+c1, c2, c3, c4 = sns.color_palette("Set1", 4)
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Input [0;32mIn [1][0m, in [0;36m<cell line: 1>[0;34m()[0m
+[0;32m----> 1[0m [38;5;28;01mimport[39;00m [38;5;21;01mGEOparse[39;00m
+[1;32m      2[0m [38;5;28;01mimport[39;00m [38;5;21;01mpandas[39;00m [38;5;28;01mas[39;00m [38;5;21;01mpd[39;00m
+[1;32m      3[0m [38;5;28;01mimport[39;00m [38;5;21;01mnumpy[39;00m [38;5;28;01mas[39;00m [38;5;21;01mnp[39;00m
+
+[0;31mModuleNotFoundError[0m: No module named 'GEOparse'
+ModuleNotFoundError: No module named 'GEOparse'
+
