@@ -5,7 +5,7 @@ __author__ = "\x1b[0;5;37;40m Nilesh Kumar \x1b[0;1;30;47m"
 __copyright__ = "Copyright 2022, UAB"
 __credits__ = ["Nilesh Kumar"]
 __license__ = "GPL"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __maintainer__ = "Nilesh Kumar"
 __email__ = "nilesh.iiita@gmail.com"
 __status__ = "Production"
@@ -24,6 +24,7 @@ from math import floor
 from pyvis import network as net
 import sys
 import pprint
+
 pp = pprint.PrettyPrinter(depth=4)
 
 import logging
@@ -31,28 +32,44 @@ logging.basicConfig(filename='POTFUL.log', filemode='w', encoding='utf-8', level
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
 class POTFUL:
-    __author__ = "\x1b[0;5;37;40m Nilesh Kumar \x1b[0;1;30;47m"
-    __copyright__ = "Copyright 2022, UAB"
-    __credits__ = ["Nilesh Kumar"]
-    __license__ = "GPL"
-    __version__ = "0.1.0"
-    __maintainer__ = "Nilesh Kumar"
-    __email__ = "nilesh.iiita@gmail.com"
-    __status__ = "Production"
-    
-    
-        
+
     def __init__(self):
         
         print("\x1b[0;6;31;40m POTFUL \x1b[0;5;30;0m")
         
-        with open("POTFUL_Animate/POT1.ansi_c.txt") as fh:
-            sys.stdout.write("\r" + fh.read())
+        Logo = """[0;34;40m                                        [0m
+[0;34;40m                                        [0m
+[0;34;40m                                        [0m
+[0;34;40m                                        [0m
+[0;34;40m        [0;1;30;40mS[0;5;36;40mt[0;5;31;40mX[0;34;40m;[0;32;40m.  [0;1;30;40m@[0;5;36;40m:[0;5;30;40mX[0;31;40m;[0;34;40m.[0;32;40m     [0;34;40m               [0m
+[0;34;40m       :[0;5;33;40m [0;5;37;40m8[0;1;30;47m8[0;5;32;40mS[0;31;40m  ;[0;5;37;40mX8[0;1;30;47m8[0;5;30;40m@[0;32;40m   .[0;34;40m.[0;31;40m     [0;34;40m           [0m
+[0;34;40m      [0;32;40m [0;5;30;40m8[0;1;30;47m8[0;5;37;40m88[0;1;30;40mX[0;34;40m .[0;5;30;40mX[0;1;30;47m8[0;5;37;40m8X[0;32;40m;[0;34;40m.[0;31;40m [0;1;30;40m8[0;5;37;40mS[0;5;33;40m [0;1;30;40m@[0;31;40m   [0;34;40m            [0m
+[0;34;40m     [0;32;40m [0;31;40m [0;5;33;40m;[0;5;37;40m8[0;1;30;47m8[0;5;35;40m [0;34;40m:[0;31;40m.[0;34;40m.[0;5;33;40m [0;1;30;47m8[0;5;37;40m8[0;5;35;40m [0;34;40m:[0;31;40m.[0;32;40m:[0;5;35;40m [0;1;30;47mX8[0;5;30;40mX[0;31;40m    [0;34;40m           [0m
+[0;34;40m     [0;31;40m [0;34;40m.[0;5;35;40m;[0;5;37;40mSS[0;1;30;40m8[0;31;40m.[0;32;40m [0;1;30;40m8[0;5;37;40m8[0;1;30;47m8[0;5;37;40m8[0;1;30;40m@[0;31;40m .[0;5;30;40mX[0;1;30;47m8[0;5;37;40m8X[0;31;40mt[0;34;40m.[0;32;40m.[0;34;40m             [0m
+[0;34;40m    [0;31;40m  [0;32;40m  :[0;34;40m:[0;31;40m.[0;32;40m  [0;5;33;40m.[0;5;37;40m88[0;5;36;40m [0;31;40m:[0;32;40m.[0;34;40m.[0;5;35;40m [0;1;30;47m88[0;5;36;40m [0;32;40m.[0;34;40m.[0;32;40m [0;34;40m             [0m
+[0;34;40m    [0;32;40m    [0;31;40m.[0;32;40m.   [0;5;36;40m:[0;5;37;40m88[0;5;30;40mX[0;34;40m.[0;32;40m .[0;5;35;40m [0;5;37;40m8X[0;1;30;40m8[0;34;40m.[0;32;40m     [0;34;40m          [0m
+[0;34;40m    [0;32;40m     [0;34;40m [0;32;40m  [0;31;40m  :[0;34;40m;[0;32;40m.[0;31;40m  .[0;34;40m.[0;31;40m;[0;34;40m:[0;32;40m.      [0;34;40m  t[0;5;30;40m8[0;5;36;40m8%[0;1;30;46m8[0;5;36;40m [0;30;44m8[0;32;40m:[0m
+[0;34;40m    [0;32;40m     [0;34;40m [0;32;40m  [0;31;40m [0;34;40m [0;32;40m.[0;31;40m.[0;32;40m    ...[0;31;40m   [0;32;40m   [0;34;40m;[0;5;34;40mS[0;5;36;40mS[0;36;47m888[0;1;36;47mXX8[0;30;44m8[0;31;40m;[0m
+[0;34;40m ;[0;5;36;40mX%t[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;5;36;40m.[0;1;30;46m8[0;1;30;47m8[0;37;46m8[0;36;47m8[0;1;36;47m@8[0;1;34;47m8[0;36;47m8[0;5;34;44m8[0;5;35;40mX[0;34;40m8[0;31;40m;[0;32;40m.[0m
+[0;34;40m [0;5;30;40m8[0;36;47m8[0;1;36;47m8@[0;1;34;47mX[0;1;36;47m8[0;36;47m@[0;1;36;47m@[0;1;34;47m@[0;1;36;47m@[0;36;47m@[0;1;36;47m@[0;1;34;47m@[0;1;36;47m@[0;36;47m@[0;1;36;47m@[0;1;34;47m@[0;1;36;47m@[0;36;47m@[0;1;36;47m@[0;1;34;47m@[0;1;36;47m@[0;36;47m@[0;1;36;47m@[0;1;34;47m@[0;1;36;47m@@[0;1;34;47m8[0;1;36;47m8[0;5;36;40mS[0;35;44mX[0;30;44m@[0;34;40m@t[0;32;40m;[0;34;40m.[0;32;40m..[0;34;40m [0m
+[0;34;40m @[0;36;47m8[0;1;34;47m@[0;1;36;47m8[0;1;30;44mt[0;34;40m888@8[0;30;44m8[0;34;40m@@8[0;30;44m8[0;34;40m8@8[0;30;44m8[0;34;40m8@8[0;30;44m8[0;34;40m8@[0;5;36;40m;[0;1;36;47m8[0;1;34;47m@[0;1;30;46m8[0;30;44m8[0;31;40m:[0;32;40m:[0;31;40m:..[0;34;40m    [0m
+[0;34;40m %[0;36;47m88[0;1;34;47m@[0;5;36;40m%[0;34;40m;[0;31;40m;:.:::.:::::::::::[0;34;40m%[0;1;30;47m8[0;1;34;47m8[0;1;36;47m8[0;5;35;40mX[0;34;40mt.[0;31;40m [0;32;40m.  [0;34;40m    [0m
+[0;34;40m .[0;1;30;44m8[0;36;47m8[0;1;36;47m8[0;36;47m@[0;5;36;40mt[0;1;30;44m@[0;32;40m;[0;34;40m;[0;32;40m:[0;34;40m;[0;32;40m:[0;34;40m;[0;32;40m;[0;34;40m;[0;32;40m;[0;34;40m;[0;32;40m:[0;34;40m;[0;32;40m;[0;34;40m;[0;32;40m;[0;34;40m%[0;5;36;40m8;[0;1;36;47m8[0;36;47m8[0;5;36;44mt[0;5;30;40m8[0;32;40m   [0;34;40m [0;32;40m  [0;34;40m    [0m
+[0;34;40m [0;32;40m [0;34;40m:[0;1;30;44m8[0;36;47m8[0;1;36;47m@[0;1;34;47m8[0;1;36;47m@[0;36;47m8888888888888888@[0;1;36;47m8[0;1;34;47m8[0;36;47m8[0;5;34;40m8[0;32;40m       [0;34;40m    [0m
+[0;34;40m [0;32;40m  [0;34;40m;[0;30;44mX[0;5;36;40mt[0;36;47m88[0;1;34;47m8[0;1;36;47m8[0;1;34;47m@[0;1;36;47m8[0;1;34;47m@[0;1;36;47m8[0;1;34;47m@[0;1;36;47m8[0;1;34;47m8[0;1;36;47m8[0;1;34;47m@[0;1;36;47m8[0;1;34;47m8[0;1;36;47m8[0;1;34;47m@[0;1;36;47m8[0;1;34;47m8[0;37;46m8[0;1;30;44m8[0;34;40m8[0;32;40m.        [0;34;40m   [0m
+[0;34;40m [0;32;40m  [0;31;40m.[0;34;40m:%S88888888888888888S%;[0;31;40m:[0;32;40m.       [0;34;40m    [0m
+[0;34;40m [0;32;40m   [0;31;40m  [0;34;40m [0;31;40m..[0;32;40m:[0;31;40m;[0;32;40m;[0;31;40m;[0;32;40m;[0;31;40mt[0;32;40m;[0;31;40mt[0;32;40m;[0;31;40mt[0;32;40m;[0;31;40mt[0;32;40m;[0;31;40m;:...[0;32;40m.[0;31;40m [0;32;40m        [0;34;40m   [0m
+[0;34;40m [0;32;40m  [0;31;40m   [0;34;40m  [0;31;40m.[0;32;40m.[0;31;40m.[0;34;40m.[0;31;40m.[0;34;40m.[0;32;40m.[0;31;40m.[0;34;40m.[0;31;40m.[0;32;40m.[0;31;40m.[0;32;40m.[0;31;40m.[0;32;40m..[0;34;40m [0;32;40m   [0;31;40m [0;32;40m        [0;34;40m   [0m
+[0;34;40m  [0;32;40m [0;31;40m   [0;34;40m     [0;32;40m .[0;31;40m  [0;34;40m [0;32;40m  [0;34;40m  .    [0;32;40m             [0;34;40m  [0m
+"""
+        
+        # with open("POTFUL_Animate/POT1.ansi_c.txt") as fh:
+        sys.stdout.write("\r" + Logo)
           
         
         logging.info("\x1b[0;6;31;40m POTFUL \x1b[0;5;30;0m")
-        with open("POTFUL_Animate/POT1.ansi_c.txt") as fh:
-            logging.info(fh.read())
+        # with open("POTFUL_Animate/POT1.ansi_c.txt") as fh:
+        logging.info(Logo)
         
         
         self.sym ="\U0001F372"
@@ -70,6 +87,8 @@ class POTFUL:
         Path(self.OutDir).mkdir(parents=True, exist_ok=True)
         
         logging.info(f"{self.sym}Intialized\n")
+        
+        print(f"Results will be saved in '{self.OutDir}' folder")
         
         
     
@@ -185,7 +204,7 @@ class POTFUL:
         self.LOCATE_FILE(self.File[Sample_name]["WGCNA"]["EDGE"])
         df = pd.read_csv(self.File[Sample_name]["WGCNA"]['EDGE'], nrows=3, sep="\t")
         cols = list(df)
-        if len(cols) != 3:
+        if len(cols) < 3:
             print("Cols: ", cols)
             logging.error(f"{self.File[Sample_name]['WGCNA']['EDGE']} Invalid file!")
             raise ValueError(f"{self.File[Sample_name]['WGCNA']['EDGE']} Invalid file!")
@@ -542,7 +561,6 @@ class POTFUL:
         self.Plots["Enrichment_Dotplot"] = fig_ench_dot
         self.Data["Enrichment_Dotplot"] = All_enrichment_data
 
-        Path("Images_Dot_enrichment").mkdir(parents=True, exist_ok=True)
         fig_ench_dot.write_image(self.OutDir +  Sample1 +"__"+ Sample2 +"Enri_dot.svg")
         fig_ench_dot.write_image(self.OutDir +  Sample1 +"__"+ Sample2 +"Enri_dot.png")
         
@@ -645,7 +663,7 @@ class POTFUL:
         # print(df_edge)
 
         Coexp_Dic = {}
-        df_edge = pd.read_csv(Edge_File, sep="\t")
+        df_edge = pd.read_csv(Edge_File, sep="\t", usecols=[0,1,2])
         df_edge = df_edge.dropna()
 
 
@@ -823,7 +841,12 @@ class POTFUL:
         
         
         
-    def generate_graphml_out(self, Sample_name): #df_net, Node_File):
+    def generate_graphml_out(self, Sample_name, ID_Column = "ID"): #df_net, Node_File):
+        """
+        Sample_name = Sample index number [0,1,2...]
+        ID_Column = Of the WGCNA node file which column should be taken into consideration, ID/First col (default) or AltName/ Second col. In genral For micro array AltName/ Second col and for RNA-Seq ID/First col. 
+        """
+        
         logging.info("\ngenerate_graphml_out START")
         
         G = self.Data[Sample_name]["Network"]
@@ -836,17 +859,22 @@ class POTFUL:
         WGCNA_Module = {}
         TF_Flag = {}
         df = pd.read_csv(self.File[Sample_name]['WGCNA']['NODE'], sep="\t")
-        for ID,Name, Module in df.values:
-            Gene_color[Name] = self.Auxiliary_Data['WGCNA_COL_DIC'][Module]
-            WGCNA_Module[Name] = Module
-            if Name in self.Auxiliary_Data['TFs']:
-                TF_Flag[Name] = "TF"
+        for ID,AltName, Module in df.values:
+            
+            if ID_Column != "ID":
+                ID = AltName
+            
+            Gene_color[ID] = self.Auxiliary_Data['WGCNA_COL_DIC'][Module]
+            WGCNA_Module[ID] = Module
+            if ID_Column in self.Auxiliary_Data['TFs']:
+                TF_Flag[ID] = "TF"
             else:
-                TF_Flag[Name] = "Non_TF"
+                TF_Flag[ID] = "Non_TF"
                 
         
         attrs = {}
         for node in Nodes:
+            # print(node, Gene_color)
             
             d = {"color": Gene_color[node], "TF": TF_Flag[node], "WGCNA_Module": WGCNA_Module[node]}
             attrs[node] = d
@@ -894,8 +922,8 @@ class POTFUL:
     
     
     ##################################################
-    def netowork_overlap(self, sample1, sample2):
-        logging.info("\nnetowork_overlap START")
+    def network_overlap(self, sample1, sample2):
+        logging.info("\nnetwork_overlap START")
         
         # print(G1, G2, POT.Auxiliary_Data['TFs'])
         G1 = self.Data[sample1]["Network"]
@@ -907,6 +935,14 @@ class POTFUL:
         # sample1, sample2 = "pH", "Sulfur"
 
         Overlapping_nodes = Nodes1.intersection(Nodes2)
+        self.Data[sample1][sample2] = {"Intersection":Overlapping_nodes, 
+                                       "Symmetric_difference": Nodes1 ^ Nodes2, 
+                                       "Difference":Nodes1 - Nodes2}
+        
+        self.Data[sample2][sample1] = {"Intersection":Overlapping_nodes, 
+                                       "Symmetric_difference":Nodes2 ^ Nodes1, # Same as Nodes1 ^ Nodes2
+                                       "Difference":Nodes2 - Nodes1}
+        
         if not len(Overlapping_nodes):
             warnings.warn(f"{self.sym} {self.sym} There no common node between pair of Graphs")
             logging.info(f"{self.sym} {self.sym} There no common node between pair of Graphs")
@@ -919,7 +955,7 @@ class POTFUL:
         print(Overlapping_nodes)
         logging.info(Overlapping_nodes)
         
-        self.Data["Overlapping_nodes"] = Overlapping_nodes
+        # self.Data["Overlapping_nodes"] = Overlapping_nodes
         
         G = nx.compose(G1,G2)
         # print(G.nodes['AT1G25400'])
@@ -953,7 +989,9 @@ class POTFUL:
 
         nx.set_node_attributes(G, attr)
 
-        self.Data["Overlap_Network"] = G
+        # self.Data["Overlap_Network"] = G
+        self.Data[sample1][sample2]["Network"]=G
+        self.Data[sample2][sample1]["Network"]=G
 
         # G = self.Data[Sample_name]["Network"]
         g = net.Network(notebook=True)
@@ -967,7 +1005,7 @@ class POTFUL:
         
         nx.write_graphml_lxml(G, self.OutDir+"Overlapping_network.graphml")
         
-        logging.info("netowork_overlap END\n")
+        logging.info("network_overlap END\n")
         logging.info(f"{self.sym} END!!")
         
         logging.shutdown()
