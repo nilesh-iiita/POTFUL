@@ -407,8 +407,8 @@ title="Print to PDF"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#display-html-graph-file-ph">
-     Display html graph file (pH)
+    <a class="reference internal nav-link" href="#display-html-graph-file-uncut">
+     Display html graph file (Uncut)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -417,8 +417,8 @@ title="Print to PDF"
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#display-html-graph-file-ph-and-sulfur-overlap">
-     Display html graph file (pH and Sulfur overlap)
+    <a class="reference internal nav-link" href="#display-html-graph-file-uncut-and-3hpc-overlap">
+     Display html graph file (Uncut and 3hpc overlap)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -515,8 +515,8 @@ title="Print to PDF"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#display-html-graph-file-ph">
-     Display html graph file (pH)
+    <a class="reference internal nav-link" href="#display-html-graph-file-uncut">
+     Display html graph file (Uncut)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -525,8 +525,8 @@ title="Print to PDF"
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#display-html-graph-file-ph-and-sulfur-overlap">
-     Display html graph file (pH and Sulfur overlap)
+    <a class="reference internal nav-link" href="#display-html-graph-file-uncut-and-3hpc-overlap">
+     Display html graph file (Uncut and 3hpc overlap)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -755,13 +755,17 @@ GMT_base/POTFUL-3hpc.gmt
     
 <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
     <span class="n">autosize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">width</span><span class="o">=</span><span class="mi">350</span><span class="p">,</span>
+    <span class="n">width</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span>
     <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span>
     <span class="n">plot_bgcolor</span><span class="o">=</span><span class="s1">&#39;rgba(0,0,0,0)&#39;</span><span class="p">,</span>
 <span class="p">)</span>
 
 <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
-<span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> WGCNA bar plot&quot;</span><span class="p">,</span>
+<span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> WGCNA module bar plot&quot;</span><span class="p">,</span>
+    <span class="n">xaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+        <span class="n">title</span><span class="o">=</span><span class="s2">&quot;WGCNA Modules&quot;</span><span class="p">),</span>
+    <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+        <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Number of Genes&quot;</span><span class="p">),</span>
 <span class="n">font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
     <span class="n">family</span><span class="o">=</span><span class="s2">&quot;Arial&quot;</span><span class="p">,</span>
     <span class="n">size</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span>
@@ -784,14 +788,25 @@ GMT_base/POTFUL-3hpc.gmt
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">POT</span><span class="o">.</span><span class="n">Plots</span><span class="p">[</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">]][</span><span class="s1">&#39;WGCNA_BarPlot&#39;</span><span class="p">]</span>
 
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">({</span>
+        <span class="s1">&#39;plot_bgcolor&#39;</span><span class="p">:</span> <span class="s1">&#39;rgba(0, 0, 0, 0)&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;paper_bgcolor&#39;</span><span class="p">:</span> <span class="s1">&#39;rgba(0, 0, 0, 0)&#39;</span><span class="p">,})</span>
+    
 <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
     <span class="n">autosize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">width</span><span class="o">=</span><span class="mi">350</span><span class="p">,</span>
+    <span class="n">width</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span>
     <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span>
     <span class="n">plot_bgcolor</span><span class="o">=</span><span class="s1">&#39;rgba(0,0,0,0)&#39;</span><span class="p">,</span>
 <span class="p">)</span>
 
 <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+<span class="c1"># title=f&quot;{Samples[0]} WGCNA module bar plot&quot;,</span>
+<span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;3 hr post decapitation&lt;br&gt;WGCNA module bar plot&quot;</span><span class="p">,</span>
+
+    <span class="n">xaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+        <span class="n">title</span><span class="o">=</span><span class="s2">&quot;WGCNA Modules&quot;</span><span class="p">),</span>
+    <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+        <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Number of Genes&quot;</span><span class="p">),</span>
 <span class="n">font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
     <span class="n">family</span><span class="o">=</span><span class="s2">&quot;Arial&quot;</span><span class="p">,</span>
     <span class="n">size</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span>
@@ -844,13 +859,97 @@ Total Number of genes in 12088
 5              black         pink  45/349  1.475838e-12      1.475838e-11   
 
     Odds Ratio Significance                                              Genes  
-4     2.165923            *  AT2G11780;AT1G63330;AT2G44995;AT1G63400;AT1G66...  
-7     4.481927          ***  AT3G58200;AT2G44195;AT4G14690;AT1G59840;AT4G18...  
-10    2.105779          ***  AT2G12190;AT5G41290;AT1G13630;AT3G26680;AT2G26...  
-5     3.550101          ***  AT5G56120;AT3G51280;AT3G02120;AT4G37920;AT3G55...  
+4     2.165923            *  AT2G44995;AT1G63400;AT1G63330;AT1G02450;AT3G15...  
+7     4.481927          ***  AT5G19210;AT5G16230;AT2G44195;AT3G28150;AT3G06...  
+10    2.105779          ***  AT2G18380;AT2G26840;AT2G33847;AT3G03580;AT1G36...  
+5     3.550101          ***  AT3G60840;AT5G55520;AT1G16630;AT2G21710;AT5G36...  
 </pre></div>
 </div>
 </div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">Data</span><span class="p">[</span><span class="s1">&#39;Enrichment_Dotplot&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Gene_set (Uncut)</th>
+      <th>Term (3hpc)</th>
+      <th>Overlap</th>
+      <th>P-value</th>
+      <th>Adjusted P-value</th>
+      <th>Odds Ratio</th>
+      <th>Significance</th>
+      <th>Genes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>4</th>
+      <td>red</td>
+      <td>greenyellow</td>
+      <td>20/175</td>
+      <td>1.438619e-03</td>
+      <td>1.726343e-02</td>
+      <td>2.165923</td>
+      <td>*</td>
+      <td>AT2G44995;AT1G63400;AT1G63330;AT1G02450;AT3G15...</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>magenta</td>
+      <td>purple</td>
+      <td>21/166</td>
+      <td>2.583919e-08</td>
+      <td>2.583919e-07</td>
+      <td>4.481927</td>
+      <td>***</td>
+      <td>AT5G19210;AT5G16230;AT2G44195;AT3G28150;AT3G06...</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>brown</td>
+      <td>turquoise</td>
+      <td>73/914</td>
+      <td>2.693691e-08</td>
+      <td>3.232430e-07</td>
+      <td>2.105779</td>
+      <td>***</td>
+      <td>AT2G18380;AT2G26840;AT2G33847;AT3G03580;AT1G36...</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>black</td>
+      <td>pink</td>
+      <td>45/349</td>
+      <td>1.475838e-12</td>
+      <td>1.475838e-11</td>
+      <td>3.550101</td>
+      <td>***</td>
+      <td>AT3G60840;AT5G55520;AT1G16630;AT2G21710;AT5G36...</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
 </div>
 <p><img alt="'Enrichment_uncut_3hpc'" src="_images/3hpc__UncutEnri_dot.png" /></p>
 </section>
@@ -858,8 +957,8 @@ Total Number of genes in 12088
 <h2>TF Network overlap<a class="headerlink" href="#tf-network-overlap" title="Permalink to this headline">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">merge_TF_reg</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-<span class="n">POT</span><span class="o">.</span><span class="n">merge_TF_reg</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">POT</span><span class="o">.</span><span class="n">TF_reg</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">POT</span><span class="o">.</span><span class="n">TF_reg</span><span class="p">(</span><span class="n">Samples</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
@@ -889,7 +988,15 @@ Total number of common pairs:171069
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Scaled Dataset Using Pandas
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>AT1G68150 AT1G06630
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>AT3G11450 AT3G50550
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># POT.TF_reg(Samples[0], Filter=0)</span>
+<span class="c1"># POT.TF_reg(Samples[1], Filter=0)</span>
 </pre></div>
 </div>
 </div>
@@ -981,8 +1088,8 @@ DiGraph with 266 nodes and 229 edges
 </div>
 </div>
 </div>
-<section id="display-html-graph-file-ph">
-<h3>Display html graph file (pH)<a class="headerlink" href="#display-html-graph-file-ph" title="Permalink to this headline">#</a></h3>
+<section id="display-html-graph-file-uncut">
+<h3>Display html graph file (Uncut)<a class="headerlink" href="#display-html-graph-file-uncut" title="Permalink to this headline">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># POT.Plots[Samples[0]][&#39;Network_Viz&#39;].show(POT.OutDir+&#39;Uncut.html&#39;)</span>
@@ -1010,7 +1117,7 @@ DiGraph with 266 nodes and 229 edges
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>🍲 👌 There are 20 nodes overlapping between pair of Graphs
-{&#39;AT4G36900&#39;, &#39;AT1G58340&#39;, &#39;AT5G42070&#39;, &#39;AT3G10113&#39;, &#39;AT2G42150&#39;, &#39;AT1G75388&#39;, &#39;AT2G18380&#39;, &#39;AT1G18330&#39;, &#39;AT2G45420&#39;, &#39;AT1G75820&#39;, &#39;AT1G75390&#39;, &#39;AT4G08940&#39;, &#39;AT3G01530&#39;, &#39;AT3G03200&#39;, &#39;AT5G62320&#39;, &#39;AT3G04030&#39;, &#39;AT1G51220&#39;, &#39;AT2G45660&#39;, &#39;AT5G46590&#39;, &#39;AT5G41920&#39;}
+{&#39;AT1G58340&#39;, &#39;AT2G45420&#39;, &#39;AT1G51220&#39;, &#39;AT5G41920&#39;, &#39;AT4G36900&#39;, &#39;AT5G46590&#39;, &#39;AT2G18380&#39;, &#39;AT2G45660&#39;, &#39;AT1G75390&#39;, &#39;AT3G04030&#39;, &#39;AT3G10113&#39;, &#39;AT4G08940&#39;, &#39;AT3G03200&#39;, &#39;AT1G75388&#39;, &#39;AT5G62320&#39;, &#39;AT5G42070&#39;, &#39;AT1G18330&#39;, &#39;AT3G01530&#39;, &#39;AT1G75820&#39;, &#39;AT2G42150&#39;}
 </pre></div>
 </div>
 </div>
@@ -1023,8 +1130,8 @@ DiGraph with 266 nodes and 229 edges
 </div>
 </div>
 </section>
-<section id="display-html-graph-file-ph-and-sulfur-overlap">
-<h3>Display html graph file (pH and Sulfur overlap)<a class="headerlink" href="#display-html-graph-file-ph-and-sulfur-overlap" title="Permalink to this headline">#</a></h3>
+<section id="display-html-graph-file-uncut-and-3hpc-overlap">
+<h3>Display html graph file (Uncut and 3hpc overlap)<a class="headerlink" href="#display-html-graph-file-uncut-and-3hpc-overlap" title="Permalink to this headline">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># POT.Plots[&#39;Uncut_3hpc_Overlap_Network_Viz&#39;].show(POT.OutDir+&#39;Overlap.html&#39;)</span>
@@ -1058,19 +1165,20 @@ DiGraph with 266 nodes and 229 edges
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>-----
 POTFUL              0.1.1
-plotly              5.10.0
+pandas              1.4.3
+plotly              5.9.0
 session_info        1.0.0
 -----
-IPython             8.5.0
-jupyter_client      7.3.5
-jupyter_core        4.11.1
-jupyterlab          3.4.6
+IPython             8.4.0
+jupyter_client      7.3.4
+jupyter_core        4.10.0
+jupyterlab          3.4.3
 notebook            6.4.12
 -----
-Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)]
-Windows-10-10.0.22622-SP0
+Python 3.10.4 (main, Mar 31 2022, 08:41:55) [GCC 7.5.0]
+Linux-5.15.62.1-microsoft-standard-WSL2-x86_64-with-glibc2.31
 -----
-Session information updated at 2022-09-28 05:47
+Session information updated at 2022-10-07 06:22
 </pre></div>
 </div>
 </div>

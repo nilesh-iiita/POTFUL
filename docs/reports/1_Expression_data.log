@@ -35,11 +35,13 @@ c1, c2, c3, c4 = sns.color_palette("Set1", 4)
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-Input [0;32mIn [1][0m, in [0;36m<cell line: 1>[0;34m()[0m
-[0;32m----> 1[0m [38;5;28;01mimport[39;00m [38;5;21;01mGEOparse[39;00m
-[1;32m      2[0m [38;5;28;01mimport[39;00m [38;5;21;01mpandas[39;00m [38;5;28;01mas[39;00m [38;5;21;01mpd[39;00m
-[1;32m      3[0m [38;5;28;01mimport[39;00m [38;5;21;01mnumpy[39;00m [38;5;28;01mas[39;00m [38;5;21;01mnp[39;00m
+Input [0;32mIn [1][0m, in [0;36m<cell line: 7>[0;34m()[0m
+[1;32m      5[0m [38;5;28;01mfrom[39;00m [38;5;21;01mpathlib[39;00m [38;5;28;01mimport[39;00m Path
+[1;32m      6[0m [38;5;28;01mimport[39;00m [38;5;21;01mpylab[39;00m [38;5;28;01mas[39;00m [38;5;21;01mpl[39;00m
+[0;32m----> 7[0m [38;5;28;01mimport[39;00m [38;5;21;01mseaborn[39;00m [38;5;28;01mas[39;00m [38;5;21;01msns[39;00m
+[1;32m      8[0m pl[38;5;241m.[39mrcParams[[38;5;124m'[39m[38;5;124mfigure.figsize[39m[38;5;124m'[39m] [38;5;241m=[39m ([38;5;241m14[39m, [38;5;241m10[39m)
+[1;32m      9[0m pl[38;5;241m.[39mrcParams[[38;5;124m'[39m[38;5;124mytick.labelsize[39m[38;5;124m'[39m] [38;5;241m=[39m [38;5;241m12[39m
 
-[0;31mModuleNotFoundError[0m: No module named 'GEOparse'
-ModuleNotFoundError: No module named 'GEOparse'
+[0;31mModuleNotFoundError[0m: No module named 'seaborn'
+ModuleNotFoundError: No module named 'seaborn'
 
