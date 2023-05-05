@@ -1,6 +1,8 @@
 # :stew: POTFUL
-POTFUL Plant cO-expression Transcription Factor regULators
 <a href="https://doi.org/10.5281/zenodo.6800259"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6800259.svg" alt="DOI"></a>
+
+
+POTFUL Plant cO-expression Transcription Factor regULators
 
 
 ![](POTFUL_Animate/POTFUL.gif)
@@ -56,3 +58,19 @@ Fork the [POTFUL](https://github.com/nilesh-iiita/POTFUL) git repository and clo
 # Example and documentation
 [Demo](https://nilesh-iiita.github.io/POTFUL/intro.html)
 
+# Cite 
+
+![](https://doi.org/10.1016/j.xpro.2022.101608)
+
+```
+@article{kumar2022pipeline,
+  title={A pipeline of integrating transcriptome and interactome to elucidate central nodes in host-pathogens interactions},
+  author={Kumar, Nilesh and Mishra, Bharat and Mukhtar, M Shahid},
+  journal={STAR protocols},
+  volume={3},
+  number={3},
+  pages={101608},
+  year={2022},
+  publisher={Elsevier}
+}
+```
