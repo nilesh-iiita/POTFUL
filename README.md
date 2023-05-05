@@ -60,6 +60,16 @@ Fork the [POTFUL](https://github.com/nilesh-iiita/POTFUL) git repository and clo
 # ![Example and documentation](https://nilesh-iiita.github.io/POTFUL/_static/logo.png)
 :point_right:[Full page Demo](https://nilesh-iiita.github.io/POTFUL/intro.html)
 
+# Credits
+POTFUL was originally written by [Nilesh Kumar](https://github.com/nilesh-iiita).
+
+We thank the following people for their extensive assistance in the development of this pipeline:
+
+We would also like to thank the following people and groups for their support, including financial support:
+
+[Dr. Shahid Mukhtar](https://sites.uab.edu/smukhtarlab/)
+Dept. of Biology University of Alabama at Birmingham
+
 
 # Cite 
 
