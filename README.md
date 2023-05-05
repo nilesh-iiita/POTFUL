@@ -57,10 +57,8 @@ Fork the [POTFUL](https://github.com/nilesh-iiita/POTFUL) git repository and clo
     git clone https://github.com/<User Name>/POTFUL.git
 
 
-# Example and documentation
+# ![Example and documentation](https://nilesh-iiita.github.io/POTFUL/_static/logo.png)
 [Full page Demo](https://nilesh-iiita.github.io/POTFUL/intro.html)
-
-<iframe src="https://nilesh-iiita.github.io/POTFUL/intro.html" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 
 
 # Cite 
