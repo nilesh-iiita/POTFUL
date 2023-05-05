@@ -71,19 +71,8 @@ Dept. of Biology University of Alabama at Birmingham
 
 # Cite 
 
-<a href="https://doi.org/10.1016/j.xpro.2022.101608"><img src="https://ars.els-cdn.com/content/image/B26661667.svg" alt="DOI"></a>
--
-<a href="https://doi.org/10.5281/zenodo.6800259"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6800259.svg" alt="DOI"></a>
 
-```
-@article{kumar2022pipeline,
-  title={A pipeline of integrating transcriptome and interactome to elucidate central nodes in host-pathogens interactions},
-  author={Kumar, Nilesh and Mishra, Bharat and Mukhtar, M Shahid},
-  journal={STAR protocols},
-  volume={3},
-  number={3},
-  pages={101608},
-  year={2022},
-  publisher={Elsevier}
-}
-```
+-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7901425.svg)](https://doi.org/10.5281/zenodo.7901425)
+
+
