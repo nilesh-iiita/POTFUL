@@ -60,7 +60,11 @@ Fork the [POTFUL](https://github.com/nilesh-iiita/POTFUL) git repository and clo
 
 # Cite 
 
-![](https://doi.org/10.1016/j.xpro.2022.101608)
+https://doi.org/10.1016/j.xpro.2022.101608
+https://ars.els-cdn.com/content/image/B26661667.svg
+
+<a href="https://doi.org/10.1016/j.xpro.2022.101608"><img src="https://ars.els-cdn.com/content/image/B26661667.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.6800259"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6800259.svg" alt="DOI"></a>
 
 ```
 @article{kumar2022pipeline,
